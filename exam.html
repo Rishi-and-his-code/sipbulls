@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock Test | SIPBULLS</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><text x='32' y='42' text-anchor='middle' font-size='20' font-family='Georgia' fill='%23C9A227'>SB</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SB</span>
+      <span class="brand-name">SIPBULLS<small>NISM V-D Prep</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="bank.html" data-page="bank">Question Bank</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="cta" href="exam.html?new=1" data-page="exam">New test</a>
+    </nav>
+  </header>
+
+  <section id="intro" class="wrap">
+    <div class="panel">
+      <span class="kicker" style="color:#8a6c0d;background:#f8efd4">SIPBULLS · official exam pattern</span>
+      <h1>NISM V-D mock test</h1>
+      <p class="muted">A SIPBULLS randomized paper is generated when you begin. Questions are not repeated within a test.</p>
+      <ul class="rules">
+        <li>150 multiple-choice questions · 1 mark each</li>
+        <li>Duration: 3 hours (180 minutes). The paper auto-submits when time ends.</li>
+        <li>Passing score: 90 / 150 (60%)</li>
+        <li>Negative marking: 0.10 mark deducted for every incorrect answer. Unanswered questions score 0.</li>
+        <li>Weightage: Mutual Funds 68, Equity Derivatives 52, Interest Rate Derivatives 30</li>
+      </ul>
+      <div class="group" style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-gold" id="begin-btn">Begin mock test</button>
+        <a class="btn btn-ghost" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="exam" class="exam-shell hidden">
+    <div class="exam-top">
+      <div>
+        <strong id="q-label">Question 1 of 150</strong>
+        <div class="muted" id="progress-label">Answered 0 · Marked 0 · Unanswered 150</div>
+      </div>
+      <div class="timer" id="timer">03:00:00</div>
+    </div>
+    <div class="exam-body">
+      <div class="exam-main">
+        <div class="q-meta">
+          <span class="badge" id="subject-badge">Mutual Funds</span>
+          <span class="muted" id="mark-state"></span>
+        </div>
+        <p class="q-stem" id="q-stem"></p>
+        <div class="options" id="q-options"></div>
+      </div>
+      <aside class="exam-side">
+        <strong>Question palette</strong>
+        <div class="legend">
+          <span><i style="background:#d9efe4"></i>Answered</span>
+          <span><i style="background:#f8efd4"></i>Marked</span>
+          <span><i style="background:#f7f4ee"></i>Not answered</span>
+        </div>
+        <div class="palette" id="palette"></div>
+      </aside>
+    </div>
+    <div class="exam-actions">
+      <div class="group">
+        <button class="btn btn-ghost" id="prev-btn">Previous</button>
+        <button class="btn btn-ghost" id="next-btn">Next</button>
+      </div>
+      <div class="group">
+        <button class="btn btn-ghost" id="clear-btn">Clear response</button>
+        <button class="btn btn-ghost" id="mark-btn">Mark for review</button>
+        <button class="btn btn-danger" id="submit-btn">Submit test</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="wrap hidden">
+    <div class="result-hero">
+      <span class="pill" id="pass-pill">Result</span>
+      <div class="result-score" id="score-value">0</div>
+      <p class="muted" id="score-sub">out of 150</p>
+    </div>
+    <div class="stats" style="margin: 12px 0 28px">
+      <div class="stat"><b id="stat-correct">0</b><span>Correct</span></div>
+      <div class="stat"><b id="stat-wrong">0</b><span>Incorrect</span></div>
+      <div class="stat"><b id="stat-skip">0</b><span>Unanswered</span></div>
+      <div class="stat"><b id="stat-time">0</b><span>Time used</span></div>
+    </div>
+    <h2 style="font-family:Fraunces,Georgia,serif">Subject-wise accuracy</h2>
+    <div class="bars" id="subject-bars"></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px">
+      <a class="btn btn-gold" href="exam.html?new=1">Take another mock</a>
+      <a class="btn btn-ghost" href="bank.html">Review question bank</a>
+      <a class="btn btn-ghost" href="index.html">Home</a>
+    </div>
+    <h2 style="font-family:Fraunces,Georgia,serif">Answer review</h2>
+    <div class="review-nav">
+      <button class="chip active" data-review="all">All</button>
+      <button class="chip" data-review="wrong">Incorrect</button>
+      <button class="chip" data-review="skipped">Unanswered</button>
+      <button class="chip" data-review="correct">Correct</button>
+    </div>
+    <div class="q-list" id="review-list"></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h3>SIPBULLS</h3>
+        <p>NISM Series V-D exam prep for Specialized Investment Fund distributors.</p>
+      </div>
+      <div>
+        <h3>Founder</h3>
+        <p>Yagnesh Kachhadia</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:yagnesh2879@gmail.com">yagnesh2879@gmail.com</a></li>
+          <li><a href="tel:+919879457057">+91 98794 57057</a></li>
+          <li><a href="https://sipbulls.com" target="_blank" rel="noopener">sipbulls.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-note">A SIPBULLS product. Unofficial practice resource — not affiliated with NISM or SEBI.</div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/exam.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Question Bank | SIPBULLS</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><text x='32' y='42' text-anchor='middle' font-size='20' font-family='Georgia' fill='%23C9A227'>SB</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SB</span>
+      <span class="brand-name">SIPBULLS<small>NISM V-D Prep</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="bank.html" data-page="bank" class="active">Question Bank</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="cta" href="exam.html?new=1" data-page="exam">Mock Test</a>
+    </nav>
+  </header>
+
+  <main class="wrap page-head">
+    <span class="kicker" style="color:#8a6c0d;background:#f8efd4">SIPBULLS study mode</span>
+    <h1>Question Bank</h1>
+    <p class="muted">Every unique question with options, the correct answer, and an explanation.</p>
+
+    <div class="toolbar">
+      <input class="search" id="search" type="search" placeholder="Search questions, options, or explanations…" />
+      <div class="chips" id="filters">
+        <button class="chip active" data-subject="all">All</button>
+        <button class="chip" data-subject="mutual_funds">Mutual Funds</button>
+        <button class="chip" data-subject="equity_derivatives">Equity Derivatives</button>
+        <button class="chip" data-subject="interest_rate_derivatives">Interest Rate Derivatives</button>
+      </div>
+    </div>
+
+    <p class="muted" id="status">Loading questions…</p>
+    <div class="q-list" id="list"></div>
+    <div class="pager" id="pager"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h3>SIPBULLS</h3>
+        <p>NISM Series V-D exam prep for Specialized Investment Fund distributors.</p>
+      </div>
+      <div>
+        <h3>Founder</h3>
+        <p>Yagnesh Kachhadia</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:yagnesh2879@gmail.com">yagnesh2879@gmail.com</a></li>
+          <li><a href="tel:+919879457057">+91 98794 57057</a></li>
+          <li><a href="https://sipbulls.com" target="_blank" rel="noopener">sipbulls.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-note">A SIPBULLS product. Unofficial practice resource — not affiliated with NISM or SEBI.</div>
+    </div>
+  </footer>
+  <script type="module" src="assets/js/bank.js"></script>
+</body>
+</html>

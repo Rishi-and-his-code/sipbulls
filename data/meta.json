@@ -1,0 +1,14 @@
+{
+  "total": 1345,
+  "bySubject": {
+    "mutual_funds": 885,
+    "equity_derivatives": 374,
+    "interest_rate_derivatives": 86
+  },
+  "stats": {
+    "html": 850,
+    "pdf": 1050,
+    "dropped_dupes": 555,
+    "dropped_invalid": 0
+  }
+}
