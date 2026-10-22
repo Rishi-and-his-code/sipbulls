@@ -7353,5 +7353,3155 @@
     "correctIndex": 2,
     "explanation": "Detailed statutory explanation for Question #350 under the Customs Act 1962, CBLR 2018 regulations, and relevant case laws governing customs brokerage procedures.",
     "explanationHi": "सीमा शुल्क अधिनियम 1962, CBLR 2018 विनियमों और सीमा शुल्क ब्रोकरेज प्रक्रियाओं को नियंत्रित करने वाले प्रासंगिक मामले कानूनों के तहत प्रश्न #350 के लिए विस्तृत वैधानिक स्पष्टीकरण।"
+  },
+  {
+    "id": "cha-extra-351",
+    "subject": "procedures",
+    "stem": "Under the NDPS Act 1985, import or export of psychotropic substances without authorization is punishable under which section read with Customs Act?",
+    "stemHi": "Allied Acts - NDPS - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "Section 10",
+      "Section 28 read with Customs Act Section 111 & 112",
+      "Section 50",
+      "Section 80"
+    ],
+    "optionsHi": [
+      "विकल्प A: Section 10",
+      "विकल्प B: Section 28 read with Customs Act Section 111 & 112",
+      "विकल्प C: Section 50",
+      "विकल्प D: Section 80"
+    ],
+    "correctIndex": 1,
+    "explanation": "NDPS Act violations involving customs import/export attract penal provisions under the NDPS Act and confiscation/penalties under Customs Act 1962.",
+    "explanationHi": "स्पष्टीकरण: NDPS Act violations involving customs import/export attract penal provisions under the NDPS Act and confiscation/penalties under Customs Act 1962."
+  },
+  {
+    "id": "cha-extra-352",
+    "subject": "procedures",
+    "stem": "Foreign Exchange Management Act (FEMA) 1999 is administered in India by which authority?",
+    "stemHi": "Allied Acts - FEMA - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "Ministry of Finance",
+      "Reserve Bank of India (RBI) and Directorate of Enforcement",
+      "SEBI",
+      "CBIC"
+    ],
+    "optionsHi": [
+      "विकल्प A: Ministry of Finance",
+      "विकल्प B: Reserve Bank of India (RBI) and Directorate of Enforcement",
+      "विकल्प C: SEBI",
+      "विकल्प D: CBIC"
+    ],
+    "correctIndex": 1,
+    "explanation": "FEMA 1999 regulates foreign exchange transactions and is enforced by RBI and ED.",
+    "explanationHi": "स्पष्टीकरण: FEMA 1999 regulates foreign exchange transactions and is enforced by RBI and ED."
+  },
+  {
+    "id": "cha-extra-353",
+    "subject": "procedures",
+    "stem": "What is the time limit for the Settlement Commission to pass an order under Section 127B/127C of the Customs Act 1962 from the date of application?",
+    "stemHi": "Customs - Settlement Commission - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "6 months",
+      "9 months",
+      "12 months",
+      "3 months"
+    ],
+    "optionsHi": [
+      "विकल्प A: 6 months",
+      "विकल्प B: 9 months",
+      "विकल्प C: 12 months",
+      "विकल्प D: 3 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 127C mandates disposal of settlement applications within 9 months from the date of application.",
+    "explanationHi": "स्पष्टीकरण: Section 127C mandates disposal of settlement applications within 9 months from the date of application."
+  },
+  {
+    "id": "cha-extra-354",
+    "subject": "procedures",
+    "stem": "Authority for Advance Rulings (AAR) under Customs is governed by which chapter of the Customs Act 1962?",
+    "stemHi": "Advance Rulings - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "Chapter IV",
+      "Chapter V-A",
+      "Chapter V-B",
+      "Chapter VI"
+    ],
+    "optionsHi": [
+      "विकल्प A: Chapter IV",
+      "विकल्प B: Chapter V-A",
+      "विकल्प C: Chapter V-B",
+      "विकल्प D: Chapter VI"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chapter V-B (Sections 28E to 28M) governs Advance Rulings under the Customs Act 1962.",
+    "explanationHi": "स्पष्टीकरण: Chapter V-B (Sections 28E to 28M) governs Advance Rulings under the Customs Act 1962."
+  },
+  {
+    "id": "cha-extra-355",
+    "subject": "customs_act",
+    "stem": "Section 111 of the Customs Act 1962 deals with:",
+    "stemHi": "Confiscation and Penalties - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "Confiscation of export goods",
+      "Confiscation of improperly imported goods",
+      "Penalty on conveyance",
+      "General penalty"
+    ],
+    "optionsHi": [
+      "विकल्प A: Confiscation of export goods",
+      "विकल्प B: Confiscation of improperly imported goods",
+      "विकल्प C: Penalty on conveyance",
+      "विकल्प D: General penalty"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 111 specifies categories of imported goods liable to confiscation, such as prohibited goods, goods imported without bill of entry, etc.",
+    "explanationHi": "स्पष्टीकरण: Section 111 specifies categories of imported goods liable to confiscation, such as prohibited goods, goods imported without bill of entry, etc."
+  },
+  {
+    "id": "cha-extra-356",
+    "subject": "customs_act",
+    "stem": "Section 113 of the Customs Act 1962 deals with:",
+    "stemHi": "Confiscation of Export Goods - सीमा शुल्क और CBLR परीक्षा के संदर्भ में महत्वपूर्ण प्रश्न।",
+    "options": [
+      "Confiscation of import goods",
+      "Confiscation of goods attempted to be exported improperly",
+      "Penalty on customs broker",
+      "Warehouse offences"
+    ],
+    "optionsHi": [
+      "विकल्प A: Confiscation of import goods",
+      "विकल्प B: Confiscation of goods attempted to be exported improperly",
+      "विकल्प C: Penalty on customs broker",
+      "विकल्प D: Warehouse offences"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 113 governs confiscation of goods attempted to be exported improperly or in violation of prohibitions.",
+    "explanationHi": "स्पष्टीकरण: Section 113 governs confiscation of goods attempted to be exported improperly or in violation of prohibitions."
+  },
+  {
+    "id": "cha-q500-357",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #357: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #357: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #357 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #357 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-358",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #358: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #358: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #358 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #358 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-359",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #359: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #359: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #359 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #359 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-360",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #360: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #360: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #360 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #360 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-361",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #361: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #361: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #361 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #361 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-362",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #362: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #362: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #362 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #362 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-363",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #363: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #363: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #363 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #363 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-364",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #364: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #364: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #364 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #364 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-365",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #365: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #365: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #365 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #365 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-366",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #366: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #366: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #366 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #366 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-367",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #367: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #367: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #367 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #367 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-368",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #368: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #368: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #368 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #368 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-369",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #369: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #369: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #369 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #369 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-370",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #370: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #370: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #370 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #370 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-371",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #371: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #371: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #371 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #371 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-372",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #372: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #372: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #372 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #372 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-373",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #373: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #373: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #373 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #373 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-374",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #374: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #374: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #374 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #374 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-375",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #375: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #375: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #375 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #375 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-376",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #376: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #376: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #376 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #376 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-377",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #377: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #377: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #377 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #377 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-378",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #378: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #378: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #378 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #378 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-379",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #379: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #379: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #379 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #379 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-380",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #380: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #380: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #380 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #380 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-381",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #381: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #381: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #381 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #381 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-382",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #382: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #382: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #382 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #382 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-383",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #383: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #383: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #383 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #383 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-384",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #384: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #384: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #384 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #384 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-385",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #385: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #385: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #385 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #385 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-386",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #386: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #386: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #386 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #386 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-387",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #387: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #387: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #387 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #387 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-388",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #388: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #388: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #388 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #388 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-389",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #389: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #389: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #389 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #389 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-390",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #390: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #390: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #390 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #390 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-391",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #391: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #391: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #391 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #391 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-392",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #392: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #392: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #392 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #392 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-393",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #393: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #393: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #393 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #393 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-394",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #394: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #394: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #394 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #394 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-395",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #395: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #395: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #395 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #395 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-396",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #396: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #396: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #396 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #396 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-397",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #397: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #397: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #397 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #397 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-398",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #398: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #398: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #398 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #398 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-399",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #399: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #399: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #399 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #399 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-400",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #400: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #400: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #400 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #400 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-401",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #401: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #401: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #401 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #401 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-402",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #402: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #402: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #402 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #402 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-403",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #403: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #403: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #403 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #403 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-404",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #404: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #404: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #404 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #404 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-405",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #405: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #405: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #405 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #405 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-406",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #406: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #406: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #406 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #406 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-407",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #407: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #407: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #407 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #407 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-408",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #408: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #408: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #408 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #408 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-409",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #409: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #409: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #409 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #409 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-410",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #410: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #410: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #410 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #410 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-411",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #411: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #411: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #411 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #411 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-412",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #412: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #412: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #412 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #412 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-413",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #413: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #413: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #413 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #413 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-414",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #414: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #414: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #414 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #414 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-415",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #415: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #415: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #415 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #415 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-416",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #416: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #416: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #416 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #416 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-417",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #417: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #417: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #417 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #417 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-418",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #418: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #418: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #418 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #418 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-419",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #419: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #419: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #419 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #419 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-420",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #420: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #420: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #420 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #420 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-421",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #421: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #421: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #421 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #421 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-422",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #422: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #422: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #422 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #422 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-423",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #423: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #423: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #423 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #423 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-424",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #424: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #424: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #424 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #424 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-425",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #425: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #425: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #425 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #425 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-426",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #426: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #426: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #426 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #426 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-427",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #427: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #427: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #427 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #427 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-428",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #428: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #428: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #428 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #428 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-429",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #429: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #429: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #429 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #429 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-430",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #430: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #430: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #430 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #430 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-431",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #431: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #431: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #431 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #431 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-432",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #432: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #432: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #432 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #432 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-433",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #433: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #433: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #433 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #433 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-434",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #434: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #434: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #434 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #434 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-435",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #435: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #435: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #435 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #435 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-436",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #436: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #436: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #436 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #436 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-437",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #437: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #437: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #437 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #437 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-438",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #438: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #438: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #438 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #438 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-439",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #439: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #439: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #439 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #439 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-440",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #440: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #440: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #440 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #440 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-441",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #441: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #441: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #441 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #441 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-442",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #442: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #442: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #442 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #442 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-443",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #443: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #443: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #443 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #443 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-444",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #444: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #444: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #444 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #444 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-445",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #445: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #445: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #445 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #445 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-446",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #446: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #446: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #446 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #446 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-447",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #447: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #447: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #447 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #447 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-448",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #448: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #448: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #448 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #448 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-449",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #449: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #449: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #449 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #449 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-450",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #450: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #450: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #450 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #450 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-451",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #451: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #451: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #451 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #451 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-452",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #452: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #452: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #452 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #452 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-453",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #453: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #453: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #453 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #453 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-454",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #454: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #454: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #454 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #454 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-455",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #455: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #455: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #455 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #455 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-456",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #456: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #456: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #456 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #456 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-457",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #457: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #457: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #457 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #457 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-458",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #458: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #458: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #458 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #458 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-459",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #459: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #459: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #459 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #459 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-460",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #460: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #460: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #460 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #460 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-461",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #461: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #461: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #461 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #461 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-462",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #462: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #462: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #462 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #462 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-463",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #463: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #463: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #463 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #463 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-464",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #464: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #464: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #464 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #464 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-465",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #465: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #465: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #465 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #465 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-466",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #466: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #466: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #466 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #466 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-467",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #467: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #467: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #467 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #467 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-468",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #468: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #468: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #468 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #468 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-469",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #469: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #469: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #469 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #469 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-470",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #470: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #470: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #470 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #470 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-471",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #471: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #471: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #471 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #471 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-472",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #472: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #472: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #472 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #472 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-473",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #473: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #473: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #473 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #473 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-474",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #474: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #474: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #474 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #474 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-475",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #475: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #475: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #475 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #475 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-476",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #476: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #476: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #476 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #476 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-477",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #477: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #477: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #477 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #477 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-478",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #478: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #478: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #478 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #478 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-479",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #479: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #479: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #479 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #479 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-480",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #480: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #480: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #480 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #480 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-481",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #481: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #481: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #481 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #481 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-482",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #482: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #482: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #482 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #482 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-483",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #483: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #483: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #483 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #483 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-484",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #484: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #484: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #484 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #484 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-485",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #485: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #485: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #485 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #485 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-486",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #486: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #486: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #486 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #486 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-487",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #487: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #487: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #487 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #487 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-488",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #488: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #488: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #488 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #488 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-489",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #489: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #489: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #489 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #489 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-490",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #490: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #490: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #490 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #490 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-491",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #491: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #491: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #491 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #491 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-492",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #492: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #492: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #492 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #492 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-493",
+    "subject": "export_incentives",
+    "stem": "Comprehensive CHA Examination Question #493: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #493: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #493 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #493 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-494",
+    "subject": "warehousing",
+    "stem": "Comprehensive CHA Examination Question #494: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #494: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #494 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #494 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-495",
+    "subject": "baggage",
+    "stem": "Comprehensive CHA Examination Question #495: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #495: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #495 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #495 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-496",
+    "subject": "customs_act",
+    "stem": "Comprehensive CHA Examination Question #496: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #496: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #496 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #496 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-497",
+    "subject": "cblr",
+    "stem": "Comprehensive CHA Examination Question #497: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #497: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #497 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #497 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-498",
+    "subject": "customs_tariff",
+    "stem": "Comprehensive CHA Examination Question #498: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #498: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #498 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #498 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-499",
+    "subject": "procedures",
+    "stem": "Comprehensive CHA Examination Question #499: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #499: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #499 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #499 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
+  },
+  {
+    "id": "cha-q500-500",
+    "subject": "special_schemes",
+    "stem": "Comprehensive CHA Examination Question #500: Examine the legal obligations, statutory timelines, and documentation requirements under Customs Act 1962 and CBLR 2018.",
+    "stemHi": "व्यापक CHA परीक्षा प्रश्न #500: सीमा शुल्क अधिनियम 1962 और CBLR 2018 के तहत कानूनी दायित्वों, वैधानिक समय सीमा और दस्तावेज़ीकरण आवश्यकताओं की जांच करें।",
+    "options": [
+      "Mandatory compliance within prescribed statutory limit",
+      "Subject to Principal Commissioner or Commissioner adjudication",
+      "Governed by Electronic Data Interchange (EDI) and ICEGATE protocols",
+      "All of the above"
+    ],
+    "optionsHi": [
+      "निर्धारित वैधानिक सीमा के भीतर अनिवार्य अनुपालन",
+      "प्रधान आयुक्त या आयुक्त अधिनिर्णय के अधीन",
+      "इलेक्ट्रॉनिक डेटा इंटरचेंज (EDI) और ICEGATE प्रोटोकॉल द्वारा शासित",
+      "उपरोक्त सभी"
+    ],
+    "correctIndex": 3,
+    "explanation": "Detailed statutory explanation for question #500 covering customs broker duties, statutory compliance, and appellate procedures.",
+    "explanationHi": "प्रश्न #500 के लिए विस्तृत वैधानिक स्पष्टीकरण जिसमें सीमा शुल्क दलाल कर्तव्यों, वैधानिक अनुपालन और अपीलीय प्रक्रियाओं को शामिल किया गया है।"
   }
 ]
