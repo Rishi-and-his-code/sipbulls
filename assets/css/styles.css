@@ -176,6 +176,59 @@ img { max-width: 100%; }
   transform: translateY(-4px);
   box-shadow: 0 24px 60px rgba(11,31,58,0.16);
 }
+.founder-spotlight {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 62%, #765d13 140%);
+  color: var(--white);
+  border: 1px solid rgba(201,162,39,0.42);
+  border-radius: var(--radius);
+  padding: 26px 30px;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 18px;
+  align-items: center;
+}
+.founder-avatar {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(145deg, var(--gold-2), var(--gold));
+  color: var(--navy);
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  border: 3px solid rgba(255,255,255,0.2);
+}
+.founder-spotlight .eyebrow {
+  color: var(--gold-2);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+.founder-spotlight h2 {
+  color: var(--white);
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.6rem;
+  margin: 0 0 5px;
+}
+.founder-spotlight p {
+  color: rgba(255,255,255,0.76);
+  margin: 0;
+}
+.founder-spotlight .founder-link {
+  white-space: nowrap;
+  color: var(--navy);
+  background: var(--gold);
+  border-radius: 999px;
+  padding: 11px 16px;
+  font-weight: 800;
+}
+.founder-spotlight .founder-link:hover { background: var(--gold-2); }
 .choice-icon {
   width: 48px;
   height: 48px;
@@ -617,7 +670,10 @@ body:has(#exam:not(.hidden)) .site-footer { display: none; }
 }
 
 @media (max-width: 980px) {
-  .choice-grid, .stats, .exam-body, .site-footer .wrap, .contact-grid { grid-template-columns: 1fr; }
+  .choice-grid, .stats, .exam-body, .site-footer .wrap, .contact-grid, .founder-spotlight { grid-template-columns: 1fr; }
+  .founder-avatar { margin: 0 auto; }
+  .founder-spotlight { text-align: center; }
+  .founder-spotlight .founder-link { justify-self: center; }
   .weight-row { grid-template-columns: 1fr; }
   .hero { padding-top: 48px; }
   .nav { display: flex; flex-wrap: wrap; justify-content: flex-end; }
