@@ -159,7 +159,7 @@
             <ul style="margin:0 0 20px 18px;font-size:13px;color:var(--muted)">
               ${keyPoints.slice(0, 4).map(kp => `<li>${kp}</li>`).join('')}
             </ul>
-            <button class="btn btn-ghost" onclick="openModal('${m.id}')">${currentLang === 'hi' ? 'पूरे नोट्स पढ़ें →' : 'Read full notes →'}</button>
+            <a class="btn btn-ghost" href="cha-notes.html?id=${encodeURIComponent(m.id)}">${currentLang === 'hi' ? 'पूरे नोट्स पढ़ें →' : 'Read full notes →'}</a>
           </div>
         `;
       }).join('');

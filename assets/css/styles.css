@@ -229,6 +229,28 @@ img { max-width: 100%; }
   font-weight: 800;
 }
 .founder-spotlight .founder-link:hover { background: var(--gold-2); }
+.notes-reader { padding: 34px 0 60px; }
+.notes-reader-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+.notes-content { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: clamp(24px, 5vw, 58px); max-width: 900px; margin: 0 auto; }
+.notes-kicker { color: #8a6c0d; font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 14px; }
+.notes-content h1 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; margin: 0 0 16px; }
+.notes-content h2 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: 1.45rem; margin: 28px 0 10px; }
+.notes-summary { color: var(--muted); font-size: 1.08rem; margin: 0; }
+.notes-divider { border-top: 1px solid var(--line); margin: 28px 0; }
+.notes-points { padding-left: 24px; color: var(--ink); }
+.notes-points li { margin: 9px 0; }
+.notes-article { color: var(--ink); font-size: 1rem; line-height: 1.8; }
+.notes-article h3 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: 1.65rem; margin: 0 0 14px; }
+.notes-article h4 { color: var(--navy-3); font-size: 1.12rem; margin: 28px 0 8px; }
+.notes-article p { margin: 0 0 16px; }
+.notes-article ul, .notes-article ol { padding-left: 26px; margin: 10px 0 18px; }
+.notes-article li { margin: 7px 0; }
+.notes-end { margin-top: 32px; padding: 16px 18px; border-left: 4px solid var(--gold); background: var(--gold-soft); color: var(--ink); }
+@media print {
+  .site-header, .site-footer, .notes-reader-top { display: none; }
+  .notes-reader { padding: 0; width: 100%; }
+  .notes-content { box-shadow: none; border: 0; max-width: none; }
+}
 #modal-body h3 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: 1.6rem; margin: 0 0 14px; }
 #modal-body h4 { color: var(--navy-3); font-size: 1.05rem; margin: 26px 0 8px; }
 #modal-body p { margin: 0 0 14px; }
