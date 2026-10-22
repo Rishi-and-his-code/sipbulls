@@ -32,6 +32,8 @@
   <footer class="site-footer"><div class="wrap"><div><h3>SIPBULLS</h3><p>Customs Broker License Examination preparation suite.</p></div><div><h3>Founder</h3><p>Yagnesh Kachhadia</p></div><div><h3>Contact</h3><p><a href="mailto:yagnesh2879@gmail.com">yagnesh2879@gmail.com</a></p></div><div class="footer-note">A SIPBULLS product. Unofficial exam preparation resource.</div></div></footer>
 
   <script type="module">
+    import { initAuthUI } from './assets/js/auth-ui.js';
+    initAuthUI();
     const moduleId = new URLSearchParams(location.search).get('id');
     let lang = localStorage.getItem('cha-language') || 'hi';
     let modules = [];

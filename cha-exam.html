@@ -146,6 +146,9 @@
   </footer>
 
   <script type="module">
+    import { getCurrentUser, selectSmartPaper, saveUserTestResult } from './user.js';
+    import { initAuthUI } from './auth-ui.js';
+
     const STORAGE_KEY = "cha-exam-state";
     const params = new URLSearchParams(location.search);
     const forceNew = params.get("new") === "1";
@@ -179,8 +182,8 @@
     }
 
     function startNewPaper() {
-      const shuffled = [...bank].sort(() => 0.5 - Math.random());
-      const paper = shuffled.slice(0, 150);
+      const user = getCurrentUser();
+      const paper = selectSmartPaper(bank, user ? user.username : null, 150);
       state = {
         phase: "exam",
         ids: paper.map((q) => q.id),
@@ -356,6 +359,23 @@
       const percent = Math.round((Math.max(0, marks) / maxMarks) * 100);
       const passed = marks >= 270; // 60% of 450 = 270
 
+      // Save to user history if logged in and not already saved
+      const user = getCurrentUser();
+      if (user && !state.savedToHistory) {
+        state.savedToHistory = true;
+        saveUserTestResult(user.username, {
+          score: marks,
+          maxMarks,
+          correct,
+          wrong,
+          skipped,
+          percent,
+          passed,
+          questionIds: state.questions.map(q => q.id)
+        });
+        save();
+      }
+
       const scoreEl = document.getElementById("score-value");
       scoreEl.textContent = `${marks} / ${maxMarks}`;
       scoreEl.className = `result-score ${passed ? "pass" : "fail"}`;
@@ -465,6 +485,7 @@
     });
 
     async function init() {
+      initAuthUI();
       try {
         const res = await fetch('data/cha_questions.json');
         bank = await res.json();

@@ -80,6 +80,7 @@
   </footer>
 
   <script type="module">
+    import { initAuthUI } from './assets/js/auth-ui.js';
     let questions = [];
     let currentSubject = 'all';
     let currentSearch = '';
@@ -88,6 +89,7 @@
     const pageSize = 20;
 
     async function init() {
+      initAuthUI();
       try {
         const res = await fetch('data/cha_questions.json');
         questions = await res.json();
