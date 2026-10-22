@@ -230,7 +230,9 @@ img { max-width: 100%; }
 }
 .founder-spotlight .founder-link:hover { background: var(--gold-2); }
 .notes-reader { padding: 34px 0 60px; }
-.notes-reader-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+.notes-reader-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 30px; }
+.notes-reader-top .btn { min-height: 48px; }
+.notes-reader-top + .notes-content { margin-top: 0; }
 .notes-content { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: clamp(24px, 5vw, 58px); max-width: 900px; margin: 0 auto; }
 .notes-kicker { color: #8a6c0d; font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 14px; }
 .notes-content h1 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; margin: 0 0 16px; }
@@ -246,6 +248,13 @@ img { max-width: 100%; }
 .notes-article ul, .notes-article ol { padding-left: 26px; margin: 10px 0 18px; }
 .notes-article li { margin: 7px 0; }
 .notes-end { margin-top: 32px; padding: 16px 18px; border-left: 4px solid var(--gold); background: var(--gold-soft); color: var(--ink); }
+@media (max-width: 520px) {
+  .notes-reader-top { flex-direction: column; align-items: stretch; }
+  .notes-reader-top .btn { width: 100%; }
+  .notes-content { padding: 24px 20px; }
+  .notes-content h1 { font-size: 2rem; overflow-wrap: anywhere; }
+}
+
 @media print {
   .site-header, .site-footer, .notes-reader-top { display: none; }
   .notes-reader { padding: 0; width: 100%; }
@@ -705,6 +714,8 @@ body:has(#exam:not(.hidden)) .site-footer { display: none; }
   .hero { padding-top: 48px; }
   .nav { display: flex; flex-wrap: wrap; justify-content: flex-end; }
   .nav a { padding: 6px 10px; font-size: 12px; }
+  .founder-spotlight { margin-bottom: 28px; }
+  .founder-spotlight p { line-height: 1.55; }
   .exam-side { border-left: 0; border-top: 1px solid var(--line); }
   .site-header {
     height: auto;
