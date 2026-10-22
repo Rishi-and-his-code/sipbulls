@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SIPBULLS | NISM Series V-D Exam Prep</title>
-  <meta name="description" content="SIPBULLS practice suite for the NISM Series V-D Specialized Investment Fund Distributors exam. Question bank and randomized mock tests by founder Yagnesh Kachhadia." />
+  <title>SIPBULLS | Multi-Exam Prep Suite (NISM V-D & CHA / CBLR)</title>
+  <meta name="description" content="SIPBULLS practice suite for NISM Series V-D and Customs Broker License Examination (CHA / CBLR). Question banks, study notes, and randomized mock tests by founder Yagnesh Kachhadia." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><text x='32' y='42' text-anchor='middle' font-size='20' font-family='Georgia' fill='%23C9A227'>SB</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,45 +15,56 @@
   <header class="site-header">
     <a class="brand" href="index.html">
       <span class="brand-mark">SB</span>
-      <span class="brand-name">SIPBULLS<small>NISM V-D Prep</small></span>
+      <span class="brand-name">SIPBULLS<small>Multi-Exam Prep Suite</small></span>
     </a>
     <nav class="nav">
       <a href="index.html" data-page="home" class="active">Home</a>
-      <a href="bank.html" data-page="bank">Question Bank</a>
+      <a href="bank.html" data-page="bank">NISM Bank</a>
+      <a href="cha.html" data-page="cha">CHA Study Notes</a>
+      <a href="cha-bank.html" data-page="cha-bank">CHA Bank</a>
       <a href="index.html#contact">Contact</a>
-      <a class="cta" href="exam.html?new=1" data-page="exam">Mock Test</a>
     </nav>
   </header>
 
   <section class="hero">
     <div class="hero-inner">
-      <span class="kicker">SIPBULLS · NISM Series V-D</span>
-      <h1>Prepare for the SIF Distributors exam with SIPBULLS.</h1>
+      <span class="kicker">SIPBULLS · Professional Examination Prep</span>
+      <h1>Choose your exam prep track with SIPBULLS.</h1>
       <p class="lead">
-        A SIPBULLS practice suite for the NISM Series V-D certification: study every unique MCQ in the bank,
-        then sit a randomized 150-question mock that follows official duration, marking, and subject weightage.
+        Select between NISM Series V-D (Specialized Investment Fund Distributors) and CHA / CBLR (Customs Broker License Examination) preparation suites. Full question banks, study notes, and randomized exam mock tests.
       </p>
     </div>
   </section>
 
-  <div class="wrap choice-grid">
-    <a class="choice-card" href="bank.html">
-      <div class="choice-icon">☰</div>
-      <h2>Question Bank</h2>
-      <p>Browse every unique question with options, the correct answer, and a clear explanation. Filter by subject and search by keyword.</p>
-      <span class="btn btn-primary">Open question bank →</span>
-    </a>
-    <a class="choice-card accent" href="exam.html?new=1">
-      <div class="choice-icon">⏱</div>
-      <h2>Start a Mock Test</h2>
-      <p>150 questions, 180 minutes, 90 to pass, and −0.1 for every wrong answer. A new randomized paper is created each time you start from here.</p>
-      <span class="btn btn-gold">Begin mock test →</span>
-    </a>
+  <!-- Dual Exam Selection Choice Grid -->
+  <div class="wrap choice-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top:-56px">
+    <!-- Track 1: NISM Series V-D -->
+    <div class="choice-card" style="border-top: 4px solid var(--navy)">
+      <div class="choice-icon">📈</div>
+      <h2>NISM Series V-D Prep</h2>
+      <p>Specialized Investment Fund (SIF) Distributors certification. 150 questions, 180 minutes, 90 to pass, and −0.1 negative marking.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto">
+        <a class="btn btn-primary" href="bank.html">NISM Question Bank →</a>
+        <a class="btn btn-gold" href="exam.html?new=1">NISM Mock Test →</a>
+      </div>
+    </div>
+
+    <!-- Track 2: CHA / CBLR Exam -->
+    <div class="choice-card accent" style="border-top: 4px solid var(--gold)">
+      <div class="choice-icon">⚓</div>
+      <h2>CHA / CBLR Exam Prep</h2>
+      <p>Customs Broker License Examination. Conceptual learning study notes, full question bank, and CBE mock tests with +3 / −1 marking scheme.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto">
+        <a class="btn btn-primary" href="cha.html">CHA Study Notes →</a>
+        <a class="btn btn-gold" href="cha-exam.html?new=1">CHA Mock Test →</a>
+      </div>
+    </div>
   </div>
 
+  <!-- NISM Exam Snapshot Section (Preserved fully) -->
   <section class="section">
     <div class="wrap">
-      <h2>Exam snapshot</h2>
+      <h2>NISM Series V-D Exam snapshot</h2>
       <p class="sub">Aligned with the NISM Series V-D: Mutual Fund (Specialized Investment Fund) Distributors format.</p>
       <div class="stats">
         <div class="stat"><b>150</b><span>Multiple-choice questions</span></div>
@@ -84,17 +95,33 @@
     </div>
   </section>
 
-  <section class="section" id="about" style="padding-top:0">
+  <!-- CHA Exam Snapshot Section -->
+  <section class="section" style="padding-top:0">
     <div class="wrap">
-      <h2>About SIPBULLS</h2>
-      <p class="sub">Practical exam prep for mutual fund and SIF distributors, built by practitioners.</p>
-      <div class="choice-card" style="min-height:0; max-width:760px; box-shadow: var(--shadow-sm);">
-        <h2 style="font-size:1.35rem">Yagnesh Kachhadia</h2>
-        <p>Founder, SIPBULLS. This NISM Series V-D practice site is a SIPBULLS product — focused study material, a full question bank, and exam-pattern mock tests.</p>
+      <h2>CHA / CBLR Exam snapshot</h2>
+      <p class="sub">Aligned with the Customs Broker License Examination (CBLR) computer-based format.</p>
+      <div class="stats">
+        <div class="stat"><b>150</b><span>Multiple-choice questions</span></div>
+        <div class="stat"><b>150</b><span>Minutes (2.5 hours)</span></div>
+        <div class="stat"><b>270</b><span>Marks to pass (60%)</span></div>
+        <div class="stat"><b>+3 / −1</b><span>Marking scheme</span></div>
       </div>
     </div>
   </section>
 
+  <!-- About Section -->
+  <section class="section" id="about" style="padding-top:0">
+    <div class="wrap">
+      <h2>About SIPBULLS</h2>
+      <p class="sub">Practical exam prep for financial and customs professionals, built by practitioners.</p>
+      <div class="choice-card" style="min-height:0; max-width:760px; box-shadow: var(--shadow-sm);">
+        <h2 style="font-size:1.35rem">Yagnesh Kachhadia</h2>
+        <p>Founder, SIPBULLS. Multi-exam practice portal featuring NISM certification and Customs Broker License Examination (CHA) preparation suites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
   <section class="section" id="contact" style="padding-top:0">
     <div class="wrap">
       <h2>Contact</h2>
@@ -120,7 +147,7 @@
     <div class="wrap">
       <div>
         <h3>SIPBULLS</h3>
-        <p>NISM Series V-D exam prep for Specialized Investment Fund distributors.</p>
+        <p>Professional exam prep for NISM and Customs Broker (CHA / CBLR) candidates.</p>
       </div>
       <div>
         <h3>Founder</h3>
@@ -134,7 +161,7 @@
           <li><a href="https://sipbulls.com" target="_blank" rel="noopener">sipbulls.com</a></li>
         </ul>
       </div>
-      <div class="footer-note">A SIPBULLS product. Unofficial practice resource — not affiliated with NISM or SEBI.</div>
+      <div class="footer-note">A SIPBULLS product. Unofficial practice resource — not affiliated with NISM, SEBI, or CBIC.</div>
     </div>
   </footer>
 
@@ -146,7 +173,7 @@
         const mf = meta.bySubject.mutual_funds || 0;
         const ed = meta.bySubject.equity_derivatives || 0;
         const ird = meta.bySubject.interest_rate_derivatives || 0;
-        el.textContent = `SIPBULLS question bank: ${meta.total.toLocaleString()} unique questions (${mf} Mutual Funds, ${ed} Equity Derivatives, ${ird} Interest Rate Derivatives), with duplicates removed.`;
+        el.textContent = `NISM question bank: ${meta.total.toLocaleString()} unique questions (${mf} Mutual Funds, ${ed} Equity Derivatives, ${ird} Interest Rate Derivatives), with duplicates removed.`;
       })
       .catch(() => {});
   </script>

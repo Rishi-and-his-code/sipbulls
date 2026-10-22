@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CHA CBT Mock Test | SIPBULLS</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><text x='32' y='42' text-anchor='middle' font-size='20' font-family='Georgia' fill='%23C9A227'>SB</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SB</span>
+      <span class="brand-name">SIPBULLS<small>CHA Mock Test</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="cha.html" data-page="cha">Study Notes</a>
+      <a href="cha-bank.html" data-page="bank">Question Bank</a>
+      <button class="btn btn-ghost" id="lang-toggle" style="padding:4px 10px;font-size:12px;color:white;border-color:rgba(255,255,255,0.3)">EN / हिंदी</button>
+      <a class="cta" href="cha-exam.html?new=1" data-page="exam">New test</a>
+    </nav>
+  </header>
+
+  <section id="intro" class="wrap">
+    <div class="panel">
+      <span class="kicker" style="color:#8a6c0d;background:#f8efd4">SIPBULLS · Official CBLR Pattern</span>
+      <h1>Customs Broker License Exam Mock Test</h1>
+      <p class="muted">A randomized 150-question Computer-Based Examination (CBE) paper is generated when you begin.</p>
+      <ul class="rules">
+        <li>150 Multiple-Choice Questions (MCQs)</li>
+        <li>Duration: 2.5 hours (150 minutes). Auto-submits when time expires.</li>
+        <li>Marking Scheme: <strong>+3 marks</strong> for correct answer, <strong>−1 mark</strong> for incorrect answer.</li>
+        <li>Maximum Marks: 450 | Qualifying Marks: 270 (60%)</li>
+        <li>Bilingual support (English and Hindi)</li>
+      </ul>
+      <div class="group" style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-gold" id="begin-btn">Begin mock test</button>
+        <a class="btn btn-ghost" href="cha.html">Back to study notes</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="exam" class="exam-shell hidden">
+    <div class="exam-top">
+      <div>
+        <strong id="q-label">Question 1 of 150</strong>
+        <div class="muted" id="progress-label">Answered 0 · Marked 0 · Unanswered 150</div>
+      </div>
+      <div class="timer" id="timer">02:30:00</div>
+    </div>
+    <div class="exam-body">
+      <div class="exam-main">
+        <div class="q-meta">
+          <span class="badge" id="subject-badge">Customs Act</span>
+          <span class="muted" id="mark-state"></span>
+        </div>
+        <p class="q-stem" id="q-stem"></p>
+        <p class="q-stem" id="q-stem-hi" style="color:var(--navy);font-weight:600"></p>
+        <div class="options" id="q-options"></div>
+      </div>
+      <aside class="exam-side">
+        <strong>Question palette</strong>
+        <div class="legend">
+          <span><i style="background:#d9efe4"></i>Answered</span>
+          <span><i style="background:#f8efd4"></i>Marked</span>
+          <span><i style="background:#f7f4ee"></i>Not answered</span>
+        </div>
+        <div class="palette" id="palette"></div>
+      </aside>
+    </div>
+    <div class="exam-actions">
+      <div class="group">
+        <button class="btn btn-ghost" id="prev-btn">Previous</button>
+        <button class="btn btn-ghost" id="next-btn">Next</button>
+      </div>
+      <div class="group">
+        <button class="btn btn-ghost" id="clear-btn">Clear response</button>
+        <button class="btn btn-ghost" id="mark-btn">Mark for review</button>
+        <button class="btn btn-danger" id="submit-btn">Submit test</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="wrap hidden">
+    <div class="result-hero">
+      <span class="pill" id="pass-pill">Result</span>
+      <div class="result-score" id="score-value">0</div>
+      <p class="muted" id="score-sub">out of 450</p>
+    </div>
+    <div class="stats" style="margin: 12px 0 28px">
+      <div class="stat"><b id="stat-correct">0</b><span>Correct (+3)</span></div>
+      <div class="stat"><b id="stat-wrong">0</b><span>Incorrect (−1)</span></div>
+      <div class="stat"><b id="stat-skip">0</b><span>Unanswered (0)</span></div>
+      <div class="stat"><b id="stat-time">0</b><span>Time used</span></div>
+    </div>
+    <h2 style="font-family:Fraunces,Georgia,serif">Subject-wise accuracy</h2>
+    <div class="bars" id="subject-bars"></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px">
+      <a class="btn btn-gold" href="cha-exam.html?new=1">Take another mock</a>
+      <a class="btn btn-ghost" href="cha-bank.html">Review question bank</a>
+      <a class="btn btn-ghost" href="cha.html">Study notes</a>
+    </div>
+    <h2 style="font-family:Fraunces,Georgia,serif">Answer review</h2>
+    <div class="review-nav">
+      <button class="chip active" data-review="all">All</button>
+      <button class="chip" data-review="wrong">Incorrect</button>
+      <button class="chip" data-review="skipped">Unanswered</button>
+      <button class="chip" data-review="correct">Correct</button>
+    </div>
+    <div class="q-list" id="review-list"></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h3>SIPBULLS</h3>
+        <p>Customs Broker License Examination (CBLR / CHA) preparation suite.</p>
+      </div>
+      <div>
+        <h3>Founder</h3>
+        <p>Yagnesh Kachhadia</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:yagnesh2879@gmail.com">yagnesh2879@gmail.com</a></li>
+          <li><a href="tel:+919879457057">+91 98794 57057</a></li>
+          <li><a href="https://sipbulls.com" target="_blank" rel="noopener">sipbulls.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-note">A SIPBULLS product. Unofficial exam preparation resource.</div>
+    </div>
+  </footer>
+
+  <script type="module">
+    const STORAGE_KEY = "cha-exam-state";
+    const params = new URLSearchParams(location.search);
+    const forceNew = params.get("new") === "1";
+
+    const introEl = document.getElementById("intro");
+    const examEl = document.getElementById("exam");
+    const resultsEl = document.getElementById("results");
+
+    let bank = [];
+    let state = null;
+    let tick = null;
+    let dirtyLeave = false;
+    let currentLang = 'hi';
+
+    function save() {
+      if (!state || state.phase === "intro") return;
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadSaved() {
+      try {
+        const raw = sessionStorage.getItem(STORAGE_KEY);
+        return raw ? JSON.parse(raw) : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function clearSaved() {
+      sessionStorage.removeItem(STORAGE_KEY);
+    }
+
+    function startNewPaper() {
+      const shuffled = [...bank].sort(() => 0.5 - Math.random());
+      const paper = shuffled.slice(0, 150);
+      state = {
+        phase: "exam",
+        ids: paper.map((q) => q.id),
+        questions: paper,
+        answers: paper.map(() => null),
+        marked: paper.map(() => false),
+        index: 0,
+        remaining: 150 * 60, // 150 minutes
+        startedAt: Date.now(),
+      };
+      save();
+      showExam();
+    }
+
+    function resumeOrIntro() {
+      if (forceNew) {
+        clearSaved();
+        history.replaceState({}, "", "cha-exam.html");
+      }
+      const saved = loadSaved();
+      if (saved?.phase === "results" && saved.questions?.length) {
+        state = saved;
+        showResults();
+        return;
+      }
+      if (saved?.phase === "exam" && saved.questions?.length) {
+        state = saved;
+        showExam();
+        return;
+      }
+      showIntro();
+    }
+
+    function showIntro() {
+      introEl.classList.remove("hidden");
+      examEl.classList.add("hidden");
+      resultsEl.classList.add("hidden");
+    }
+
+    function showExam() {
+      introEl.classList.add("hidden");
+      resultsEl.classList.add("hidden");
+      examEl.classList.remove("hidden");
+      dirtyLeave = true;
+      renderPalette();
+      renderQuestion();
+      startTimer();
+    }
+
+    function answeredCount() {
+      return state.answers.filter((a) => a !== null && a !== undefined).length;
+    }
+
+    function markedCount() {
+      return state.marked.filter(Boolean).length;
+    }
+
+    function startTimer() {
+      if (tick) clearInterval(tick);
+      const timerEl = document.getElementById("timer");
+      const paint = () => {
+        const hrs = Math.floor(state.remaining / 3600);
+        const mins = Math.floor((state.remaining % 3600) / 60);
+        const secs = state.remaining % 60;
+        timerEl.textContent = `${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+        timerEl.classList.toggle("warn", state.remaining <= 10 * 60);
+        if (state.remaining <= 0) {
+          submit(true);
+        }
+      };
+      paint();
+      tick = setInterval(() => {
+        state.remaining -= 1;
+        if (state.remaining % 5 === 0) save();
+        paint();
+      }, 1000);
+    }
+
+    function renderPalette() {
+      const pal = document.getElementById("palette");
+      pal.innerHTML = state.questions.map((_, i) => {
+        const classes = ["pal"];
+        if (i === state.index) classes.push("current");
+        if (state.answers[i] !== null && state.answers[i] !== undefined) classes.push("answered");
+        if (state.marked[i]) classes.push("marked");
+        return `<button class="${classes.join(" ")}" data-i="${i}">${i + 1}</button>`;
+      }).join("");
+    }
+
+    function renderQuestion() {
+      const q = state.questions[state.index];
+      document.getElementById("q-label").textContent = `Question ${state.index + 1} of ${state.questions.length}`;
+      document.getElementById("progress-label").textContent =
+        `Answered ${answeredCount()} · Marked ${markedCount()} · Unanswered ${state.questions.length - answeredCount()}`;
+      const badge = document.getElementById("subject-badge");
+      badge.className = `badge ${q.subject}`;
+      badge.textContent = q.subject;
+      document.getElementById("mark-state").textContent = state.marked[state.index] ? "Marked for review" : "";
+
+      document.getElementById("q-stem").textContent = q.stem;
+      const hiStem = document.getElementById("q-stem-hi");
+      if (currentLang === 'hi' && q.stemHi) {
+        hiStem.textContent = q.stemHi;
+        hiStem.classList.remove("hidden");
+      } else {
+        hiStem.classList.add("hidden");
+      }
+
+      const options = currentLang === 'hi' ? (q.optionsHi || q.options) : q.options;
+      document.getElementById("q-options").innerHTML = options.map((opt, i) => {
+        const chosen = state.answers[state.index];
+        const selected = chosen !== null && chosen !== undefined && Number(chosen) === i;
+        return `<button class="opt-btn${selected ? " selected" : ""}" data-opt="${i}">
+          <span class="opt-key">${String.fromCharCode(65 + i)}</span>
+          <span>${opt}</span>
+        </button>`;
+      }).join("");
+
+      document.getElementById("prev-btn").disabled = state.index === 0;
+      document.getElementById("next-btn").disabled = state.index === state.questions.length - 1;
+      document.getElementById("mark-btn").textContent = state.marked[state.index] ? "Unmark review" : "Mark for review";
+      renderPalette();
+    }
+
+    function selectOption(i) {
+      state.answers[state.index] = i;
+      save();
+      renderQuestion();
+    }
+
+    function submit(auto = false) {
+      if (!auto) {
+        const open = state.questions.length - answeredCount();
+        const msg = open
+          ? `You have ${open} unanswered question(s). Submit the test anyway?`
+          : "Submit the test and view your result?";
+        if (!confirm(msg)) return;
+      }
+      if (tick) clearInterval(tick);
+      dirtyLeave = false;
+      state.phase = "results";
+      state.finishedAt = Date.now();
+      state.auto = auto;
+      save();
+      showResults();
+    }
+
+    function showResults() {
+      if (tick) clearInterval(tick);
+      introEl.classList.add("hidden");
+      examEl.classList.add("hidden");
+      resultsEl.classList.remove("hidden");
+      dirtyLeave = false;
+
+      let correct = 0;
+      let wrong = 0;
+      let skipped = 0;
+
+      state.questions.forEach((q, i) => {
+        const ans = state.answers[i];
+        if (ans === null || ans === undefined) {
+          skipped++;
+        } else if (Number(ans) === Number(q.correctIndex)) {
+          correct++;
+        } else {
+          wrong++;
+        }
+      });
+
+      // Marking scheme: +3 correct, -1 incorrect
+      const marks = (correct * 3) - (wrong * 1);
+      const maxMarks = state.questions.length * 3;
+      const percent = Math.round((Math.max(0, marks) / maxMarks) * 100);
+      const passed = marks >= 270; // 60% of 450 = 270
+
+      const scoreEl = document.getElementById("score-value");
+      scoreEl.textContent = `${marks} / ${maxMarks}`;
+      scoreEl.className = `result-score ${passed ? "pass" : "fail"}`;
+      document.getElementById("score-sub").textContent = `${percent}% · ${passed ? "Passed (>=270 marks)" : "Did not pass (<270 marks)"}`;
+
+      const pill = document.getElementById("pass-pill");
+      pill.textContent = passed ? "PASSED" : "NOT PASSED";
+      pill.className = `pill ${passed ? "pass" : "fail"}`;
+
+      document.getElementById("stat-correct").textContent = correct;
+      document.getElementById("stat-wrong").textContent = wrong;
+      document.getElementById("stat-skip").textContent = skipped;
+
+      const usedSecs = (150 * 60) - Math.max(0, state.remaining);
+      const usedMins = Math.floor(usedSecs / 60);
+      document.getElementById("stat-time").textContent = `${usedMins} mins`;
+
+      document.getElementById("subject-bars").innerHTML = `
+        <div>
+          <div style="display:flex;justify-content:space-between;font-weight:650;margin-bottom:6px">
+            <span>Overall Score Breakdown (+3 / -1)</span>
+            <span class="muted">${correct} Correct, ${wrong} Incorrect, ${skipped} Unanswered</span>
+          </div>
+          <div class="sub-bar-track"><span style="width:${percent}%"></span></div>
+        </div>
+      `;
+
+      renderReview("all");
+    }
+
+    function renderReview(filter) {
+      document.querySelectorAll(".review-nav .chip").forEach((c) => {
+        c.classList.toggle("active", c.dataset.review === filter);
+      });
+
+      const html = state.questions.map((q, i) => {
+        const chosen = state.answers[i];
+        let status = "skipped";
+        if (chosen !== null && chosen !== undefined) {
+          status = Number(chosen) === Number(q.correctIndex) ? "correct" : "wrong";
+        }
+        if (filter !== "all" && status !== filter) return "";
+
+        const options = q.options.map((opt, oi) => {
+          const classes = ["option"];
+          if (oi === q.correctIndex) classes.push("correct");
+          if (chosen !== null && Number(chosen) === oi && oi !== q.correctIndex) classes.push("wrong");
+          if (chosen !== null && Number(chosen) === oi) classes.push("chosen");
+          return `<div class="${classes.join(" ")}"><strong>${String.fromCharCode(65 + oi)}.</strong> ${opt}</div>`;
+        }).join("");
+
+        const chosenLabel = chosen === null || chosen === undefined ? "Not answered" : `${String.fromCharCode(65 + Number(chosen))}. ${q.options[chosen]}`;
+
+        return `<article class="q-card">
+          <div class="q-meta">
+            <span class="badge ${q.subject}">${q.subject}</span>
+            <span class="muted">Q ${i + 1} · ${status === "correct" ? "Correct (+3)" : status === "wrong" ? "Incorrect (-1)" : "Unanswered"}</span>
+          </div>
+          <p class="q-stem">${q.stem}</p>
+          <div class="options">${options}</div>
+          <div class="answer-box">Your answer: ${chosenLabel}<br>Correct answer: ${String.fromCharCode(65 + q.correctIndex)}. ${q.options[q.correctIndex]}</div>
+          <div class="explain-box"><strong>Explanation</strong><div>${q.explanation}</div></div>
+        </article>`;
+      }).join("");
+
+      document.getElementById("review-list").innerHTML = html || `<p class="empty">No questions in this view.</p>`;
+    }
+
+    document.getElementById("begin-btn").addEventListener("click", startNewPaper);
+    document.getElementById("prev-btn").addEventListener("click", () => {
+      if (state.index > 0) { state.index -= 1; save(); renderQuestion(); }
+    });
+    document.getElementById("next-btn").addEventListener("click", () => {
+      if (state.index < state.questions.length - 1) { state.index += 1; save(); renderQuestion(); }
+    });
+    document.getElementById("clear-btn").addEventListener("click", () => {
+      state.answers[state.index] = null;
+      save();
+      renderQuestion();
+    });
+    document.getElementById("mark-btn").addEventListener("click", () => {
+      state.marked[state.index] = !state.marked[state.index];
+      save();
+      renderQuestion();
+    });
+    document.getElementById("submit-btn").addEventListener("click", () => submit(false));
+    document.getElementById("palette").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-i]");
+      if (!btn) return;
+      state.index = Number(btn.dataset.i);
+      save();
+      renderQuestion();
+    });
+    document.getElementById("q-options").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-opt]");
+      if (!btn) return;
+      selectOption(Number(btn.dataset.opt));
+    });
+    document.querySelectorAll(".review-nav .chip").forEach(c => {
+      c.addEventListener("click", (e) => renderReview(e.target.dataset.review));
+    });
+
+    document.getElementById("lang-toggle").addEventListener("click", () => {
+      currentLang = currentLang === 'en' ? 'hi' : 'en';
+      document.getElementById("lang-toggle").textContent = currentLang === 'en' ? 'हिंदी' : 'English';
+      if (state && state.phase === 'exam') renderQuestion();
+    });
+
+    async function init() {
+      try {
+        const res = await fetch('data/cha_questions.json');
+        bank = await res.json();
+        resumeOrIntro();
+      } catch (err) {
+        introEl.innerHTML = `<div class="panel"><h1>Could not load questions</h1><p>Serve this folder over HTTP, then try again.</p></div>`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

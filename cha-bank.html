@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CHA Question Bank | SIPBULLS</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><text x='32' y='42' text-anchor='middle' font-size='20' font-family='Georgia' fill='%23C9A227'>SB</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SB</span>
+      <span class="brand-name">SIPBULLS<small>CHA Question Bank</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="cha.html" data-page="cha">Study Notes</a>
+      <a href="cha-bank.html" data-page="bank" class="active">Question Bank</a>
+      <button class="btn btn-ghost" id="lang-toggle" style="padding:4px 10px;font-size:12px;color:white;border-color:rgba(255,255,255,0.3)">EN / हिंदी</button>
+      <a class="cta" href="cha-exam.html?new=1" data-page="exam">Mock Test</a>
+    </nav>
+  </header>
+
+  <main class="wrap page-head">
+    <span class="kicker" style="color:#8a6c0d;background:#f8efd4">SIPBULLS CHA study mode</span>
+    <h1>CHA Question Bank</h1>
+    <p class="muted">Every question with options, correct answer, and legal explanation. Bilingual support.</p>
+
+    <div class="toolbar">
+      <input class="search" id="search" type="search" placeholder="Search questions, options, or explanations…" />
+      <div class="chips" id="filters">
+        <button class="chip active" data-subject="all">All</button>
+        <button class="chip" data-subject="customs_act">Customs Act</button>
+        <button class="chip" data-subject="cblr">CBLR 2018</button>
+        <button class="chip" data-subject="customs_tariff">Customs Tariff</button>
+        <button class="chip" data-subject="procedures">Procedures</button>
+        <button class="chip" data-subject="special_schemes">Special Schemes</button>
+        <button class="chip" data-subject="export_incentives">Export Incentives</button>
+      </div>
+    </div>
+
+    <p class="muted" id="status">Loading questions…</p>
+    <div class="q-list" id="list"></div>
+    <div class="pager" id="pager"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h3>SIPBULLS</h3>
+        <p>Customs Broker License Examination (CBLR / CHA) preparation suite.</p>
+      </div>
+      <div>
+        <h3>Founder</h3>
+        <p>Yagnesh Kachhadia</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:yagnesh2879@gmail.com">yagnesh2879@gmail.com</a></li>
+          <li><a href="tel:+919879457057">+91 98794 57057</a></li>
+          <li><a href="https://sipbulls.com" target="_blank" rel="noopener">sipbulls.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-note">A SIPBULLS product. Unofficial exam preparation resource.</div>
+    </div>
+  </footer>
+
+  <script type="module">
+    let questions = [];
+    let currentSubject = 'all';
+    let currentSearch = '';
+    let currentPage = 1;
+    let currentLang = 'hi';
+    const pageSize = 20;
+
+    async function init() {
+      try {
+        const res = await fetch('data/cha_questions.json');
+        questions = await res.json();
+        document.getElementById('status').textContent = `Loaded ${questions.length} questions.`;
+        render();
+      } catch (e) {
+        document.getElementById('status').textContent = 'Failed to load questions.';
+      }
+
+      document.getElementById('search').addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase();
+        currentPage = 1;
+        render();
+      });
+
+      document.querySelectorAll('#filters .chip').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          document.querySelectorAll('#filters .chip').forEach(b => b.classList.remove('active'));
+          e.target.classList.add('active');
+          currentSubject = e.target.getAttribute('data-subject');
+          currentPage = 1;
+          render();
+        });
+      });
+
+      document.getElementById('lang-toggle').addEventListener('click', () => {
+        currentLang = currentLang === 'en' ? 'hi' : 'en';
+        document.getElementById('lang-toggle').textContent = currentLang === 'en' ? 'हिंदी' : 'English';
+        render();
+      });
+    }
+
+    function render() {
+      const filtered = questions.filter(q => {
+        const matchSub = currentSubject === 'all' || q.subject === currentSubject;
+        const stem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
+        const exp = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
+        const matchSearch = !currentSearch || stem.toLowerCase().includes(currentSearch) || exp.toLowerCase().includes(currentSearch);
+        return matchSub && matchSearch;
+      });
+
+      const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+      const slice = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+
+      document.getElementById('status').textContent = `Showing ${filtered.length} matching questions (Page ${currentPage} of ${totalPages})`;
+
+      const listEl = document.getElementById('list');
+      listEl.innerHTML = slice.map((q, idx) => {
+        const stem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
+        const options = currentLang === 'hi' ? (q.optionsHi || q.options) : q.options;
+        const explanation = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
+        const globalIdx = (currentPage - 1) * pageSize + idx + 1;
+
+        return `
+          <div class="q-card">
+            <div class="q-meta">
+              <span class="badge ${q.subject}">${q.subject.replace('_', ' ')}</span>
+              <span class="muted">Q #${globalIdx}</span>
+            </div>
+            <p class="q-stem">${stem}</p>
+            <div class="options">
+              ${options.map((opt, oIdx) => `
+                <div class="option ${oIdx === q.correctIndex ? 'correct' : ''}">
+                  <strong>${String.fromCharCode(65 + oIdx)}.</strong> ${opt}
+                </div>
+              `).join('')}
+            </div>
+            <div class="answer-box">Correct Answer: ${String.fromCharCode(65 + q.correctIndex)}</div>
+            <div class="explain-box"><strong>Explanation:</strong> ${explanation}</div>
+          </div>
+        `;
+      }).join('');
+
+      const pagerEl = document.getElementById('pager');
+      pagerEl.innerHTML = `
+        <button class="btn btn-ghost" ${currentPage <= 1 ? 'disabled' : ''} onclick="changePage(${currentPage - 1})">Previous page</button>
+        <span class="muted">Page ${currentPage} of ${totalPages}</span>
+        <button class="btn btn-ghost" ${currentPage >= totalPages ? 'disabled' : ''} onclick="changePage(${currentPage + 1})">Next page</button>
+      `;
+    }
+
+    window.changePage = function(p) {
+      currentPage = p;
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    init();
+  </script>
+</body>
+</html>
