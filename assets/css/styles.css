@@ -229,6 +229,11 @@ img { max-width: 100%; }
   font-weight: 800;
 }
 .founder-spotlight .founder-link:hover { background: var(--gold-2); }
+#modal-body h3 { color: var(--navy); font-family: Fraunces, Georgia, serif; font-size: 1.6rem; margin: 0 0 14px; }
+#modal-body h4 { color: var(--navy-3); font-size: 1.05rem; margin: 26px 0 8px; }
+#modal-body p { margin: 0 0 14px; }
+#modal-body ul, #modal-body ol { padding-left: 24px; margin: 8px 0 16px; }
+#modal-body li { margin: 6px 0; }
 .choice-icon {
   width: 48px;
   height: 48px;
