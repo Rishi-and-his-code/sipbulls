@@ -73,5 +73,74 @@
     ],
     "detailedNotes": "<h3>Customs Tariff Act & Valuation Principles</h3><p>The Customs Tariff Act, 1975 provides the statutory authority for imposing import and export duties in India, aligning with international HSN standards.</p>",
     "detailedNotesHi": "<h3>सीमा शुल्क टैरिफ अधिनियम और मूल्यांकन सिद्धांत</h3><p>सीमा शुल्क टैरिफ अधिनियम, 1975 अंतरराष्ट्रीय HSN मानकों के साथ तालमेल बिठाते हुए भारत में आयात और निर्यात शुल्क लगाने के लिए वैधानिक अधिकार प्रदान करता है।</p>"
+  },
+  {
+    "id": "import-export-procedures",
+    "title": "4. Import & Export Procedures, ICEGATE, RMS & SWIFT",
+    "titleHi": "4. आयात और निर्यात प्रक्रियाएं, ICEGATE, RMS और SWIFT",
+    "summary": "End-to-end electronic cargo clearance through ICEGATE, Risk Management System (RMS), and Single Window Interface for Facilitation of Trade (SWIFT).",
+    "summaryHi": "ICEGATE, जोखिम प्रबंधन प्रणाली (RMS) और SWIFT के माध्यम से एंड-टू-एंड इलेक्ट्रॉनिक कार्गो निकासी।",
+    "keyPoints": [
+      "ICEGATE: Portal for electronic filing of Bill of Entry, Shipping Bill, e-payment, and digital signatures.",
+      "RMS: Automated profiling of cargo into Green facilitation and Red/Yellow intervention channels.",
+      "SWIFT: Integrates FSSAI, Plant Quarantine, Animal Quarantine, Drug Controller, and other agencies.",
+      "Bill of Entry categories: Home Consumption, Warehousing, and Ex-Bond.",
+      "Shipping Bill categories: Free, Drawback, Dutiable, DEEC/EPCG."
+    ],
+    "keyPointsHi": [
+      "ICEGATE: बिल ऑफ एंट्री, शिपिंग बिल, ई-पेमेंट और डिजिटल हस्ताक्षर के इलेक्ट्रॉनिक फाइलिंग का पोर्टल।",
+      "RMS: ग्रीन सुविधा और लाल/पीले हस्तक्षेप चैनलों में कार्गो की स्वचालित प्रोफाइलिंग।",
+      "SWIFT: FSSAI, प्लांट क्वारंटाइन, पशु क्वारंटाइन और ड्रग कंट्रोलर जैसी एजेंसियों को एकीकृत करता है।",
+      "बिल ऑफ एंट्री श्रेणियां: घरेलू उपभोग, वेयरहाउसिंग और एक्स-बॉन्ड।",
+      "शिपिंग बिल श्रेणियां: फ्री, ड्रॉबैक, ड्यूटीएबल, DEEC/EPCG।"
+    ],
+    "detailedNotes": "<h3>Modern Electronic Customs Clearance</h3><p>Indian Customs uses ICEGATE for electronic filing and payment. RMS evaluates electronic declarations through risk parameters and routes low-risk cargo to facilitation while selecting higher-risk consignments for appraisal or examination. SWIFT connects Customs with partner government agencies through a single electronic interface.</p>",
+    "detailedNotesHi": "<h3>आधुनिक इलेक्ट्रॉनिक सीमा शुल्क निकासी</h3><p>भारतीय सीमा शुल्क इलेक्ट्रॉनिक फाइलिंग और भुगतान के लिए ICEGATE का उपयोग करता है। RMS जोखिम मापदंडों के आधार पर घोषणाओं का मूल्यांकन करता है और कम जोखिम वाले कार्गो को सुविधा चैनल में भेजता है। SWIFT एकल इलेक्ट्रॉनिक इंटरफेस से सीमा शुल्क और अन्य सरकारी एजेंसियों को जोड़ता है।"
+  },
+  {
+    "id": "special-schemes",
+    "title": "5. Special Schemes: Baggage, Post, Stores & Project Import",
+    "titleHi": "5. विशेष योजनाएं: बैगेज, पोस्ट, स्टोर्स और प्रोजेक्ट इम्पोर्ट",
+    "summary": "Specialized customs provisions governing passenger baggage, postal articles, ship and aircraft stores, project imports, and second-hand machinery.",
+    "summaryHi": "यात्री बैगेज, डाक वस्तुओं, जहाज और विमान स्टोर्स, प्रोजेक्ट इम्पोर्ट और सेकंड-हैंड मशीनरी को नियंत्रित करने वाले विशेष सीमा शुल्क प्रावधान।",
+    "keyPoints": [
+      "Baggage Rules, 2016: General duty-free allowance of ₹50,000 for eligible adult resident passengers returning from specified foreign countries.",
+      "Import through Post and Courier: Governed by postal customs appraisal and Express Cargo Regulations.",
+      "Stores: Sections 85-90 provide rules and exemptions for provisions and consumables for foreign-going vessels and aircraft.",
+      "Project Import, Heading 98.01: Concessional treatment for machinery and equipment used in eligible industrial projects.",
+      "Second-Hand Goods: Certain used capital goods require inspection and compliance documents before import."
+    ],
+    "keyPointsHi": [
+      "बैगेज नियम, 2016: पात्र वयस्क निवासी यात्रियों के लिए ₹50,000 की सामान्य ड्यूटी-मुक्त छूट।",
+      "डाक और कूरियर से आयात: डाक सीमा शुल्क मूल्यांकन और एक्सप्रेस कार्गो विनियमों द्वारा नियंत्रित।",
+      "स्टोर्स: धारा 85-90 विदेशी जाने वाले जहाजों और विमानों के प्रावधानों और उपभोग्य वस्तुओं के नियम देते हैं।",
+      "प्रोजेक्ट इम्पोर्ट, शीर्षक 98.01: पात्र औद्योगिक परियोजनाओं में उपयोगी मशीनरी के लिए रियायती व्यवस्था।",
+      "सेकंड-हैंड माल: कुछ प्रयुक्त पूंजीगत वस्तुओं के आयात से पहले निरीक्षण और अनुपालन दस्तावेज जरूरी हैं।"
+    ],
+    "detailedNotes": "<h3>Specialized Import Regimes</h3><p>Baggage, postal imports, stores, project imports, and second-hand goods each have separate conditions, exemptions, documentation, and clearance procedures. Candidates should revise the applicable rules together with the Customs Act and current notifications.</p>",
+    "detailedNotesHi": "<h3>विशेष आयात प्रणालियां</h3><p>बैगेज, डाक आयात, स्टोर्स, प्रोजेक्ट इम्पोर्ट और सेकंड-हैंड माल के लिए अलग-अलग शर्तें, छूट, दस्तावेज और निकासी प्रक्रियाएं होती हैं। उम्मीदवारों को सीमा शुल्क अधिनियम और वर्तमान अधिसूचनाओं के साथ इन नियमों का अध्ययन करना चाहिए।"
+  },
+  {
+    "id": "export-incentives",
+    "title": "6. Export Promotion Schemes: Drawback, EPCG, EOU, SEZ & AEO",
+    "titleHi": "6. निर्यात संवर्धन योजनाएं: ड्रॉबैक, EPCG, EOU, SEZ और AEO",
+    "summary": "Duty neutralization and export growth mechanisms including Duty Drawback, EPCG, EOUs, SEZs, and Authorized Economic Operator (AEO).",
+    "summaryHi": "ड्यूटी ड्रॉबैक, EPCG, EOU, SEZ और अधिकृत आर्थिक ऑपरेटर (AEO) सहित शुल्क तटस्थता और निर्यात विकास तंत्र।",
+    "keyPoints": [
+      "Duty Drawback Section 74: Up to 98% drawback of duty paid on imported goods re-exported without use when statutory conditions are met.",
+      "Duty Drawback Section 75: Drawback on duties incurred on imported or indigenous inputs used in exported manufactured goods.",
+      "EPCG: Capital goods may be imported at concessional or zero BCD subject to export obligation, commonly six times duty saved over six years under applicable policy.",
+      "EOU and SEZ: Export-oriented units and designated zones receive specified duty and procedural benefits for authorized operations.",
+      "AEO: Trusted-trader tiers offer facilitation, reduced intervention, and supply-chain benefits after compliance verification."
+    ],
+    "keyPointsHi": [
+      "ड्यूटी ड्रॉबैक धारा 74: शर्तें पूरी होने पर बिना उपयोग के पुनः निर्यात माल पर भुगतान किए शुल्क का 98% तक ड्रॉबैक।",
+      "ड्यूटी ड्रॉबैक धारा 75: निर्यातित विनिर्मित वस्तुओं में उपयोग किए गए आयातित या स्वदेशी इनपुट पर शुल्क ड्रॉबैक।",
+      "EPCG: लागू नीति के तहत निर्यात दायित्व के अधीन पूंजीगत वस्तुओं का रियायती या शून्य BCD पर आयात।",
+      "EOU और SEZ: अधिकृत संचालन के लिए निर्यात-उन्मुख इकाइयों और निर्दिष्ट क्षेत्रों को शुल्क और प्रक्रिया लाभ।",
+      "AEO: अनुपालन सत्यापन के बाद विश्वसनीय व्यापारियों को सुविधा और कम हस्तक्षेप।"
+    ],
+    "detailedNotes": "<h3>Export Promotion and Duty Neutralization</h3><p>Export schemes are designed to neutralize duties and taxes so Indian exports remain competitive. Always check the authorization conditions, export obligation, timelines, records, and consequences of default before applying a scheme.</p>",
+    "detailedNotesHi": "<h3>निर्यात संवर्धन और शुल्क तटस्थता</h3><p>निर्यात योजनाओं का उद्देश्य शुल्क और करों को तटस्थ करना है ताकि भारतीय निर्यात प्रतिस्पर्धी रहें। किसी योजना का उपयोग करने से पहले प्राधिकरण की शर्तों, निर्यात दायित्व, समयसीमा, रिकॉर्ड और डिफॉल्ट के परिणामों को अवश्य देखें।"
   }
 ]
