@@ -64,21 +64,23 @@ export function selectSmartPaper(bank, username, count = 150) {
   // Filter questions not yet asked to this user
   let unasked = bank.filter(q => !asked.has(q.id));
 
-  // If user has answered all questions, reset or shuffle all
-  if (unasked.length < count) {
-    unasked = [...bank];
+  // Prefer unseen questions. When fewer than `count` remain, use the remaining
+  // unseen questions first and only then fill the paper from the least-recently
+  // seen questions. This avoids repeats until the bank is exhausted and avoids
+  // the old behaviour of immediately resetting to the entire bank.
+  const unaskedPaper = shuffle(unasked).slice(0, count);
+  if (unaskedPaper.length >= count) return unaskedPaper;
+
+  const selectedIds = new Set(unaskedPaper.map(q => q.id));
+  const repeatPool = shuffle(bank.filter(q => !selectedIds.has(q.id) && asked.has(q.id)));
+  return [...unaskedPaper, ...repeatPool].slice(0, count);
+}
+
+function shuffle(items) {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
   }
-
-  // Shuffle unasked
-  const shuffledUnasked = [...unasked].sort(() => 0.5 - Math.random());
-  let paper = shuffledUnasked.slice(0, count);
-
-  // If still need more (e.g. bank smaller than count), pull from remainder
-  if (paper.length < count) {
-    const remaining = bank.filter(q => !paper.some(p => p.id === q.id));
-    const shuffledRem = remaining.sort(() => 0.5 - Math.random());
-    paper = [...paper, ...shuffledRem.slice(0, count - paper.length)];
-  }
-
-  return paper;
+  return result;
 }
