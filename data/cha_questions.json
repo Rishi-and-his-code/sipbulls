@@ -17,16 +17,17 @@
       "15 वर्ष",
       "निरस्त होने तक वैध"
     ],
-    "correctIndex": 3,
-    "explanation": "Regulation 7 of CBLR 2018 specifies that a license granted is valid for a period of 10 years, but is renewable and valid until revoked under the provisions of the regulations.",
-    "explanationHi": "CBLR 2018 के विनियमन 7 के अनुसार, दिया गया लाइसेंस 10 वर्षों की अवधि के लिए वैध है, और इसे नवीनीकृत किया जा सकता है जब तक कि इसे विनिमय के प्रावधानों के तहत रद्द न किया जाए।"
+    "correctIndex": 1,
+    "explanation": "Regulation 7 of CBLR 2018 specifies that a licence granted under the regulations is valid for 10 years, subject to the applicable renewal and continuation provisions.",
+    "explanationHi": "CBLR 2018 के विनियम 7 के अनुसार लाइसेंस की वैधता 10 वर्ष है और लागू नवीनीकरण तथा निरंतरता प्रावधानों के अधीन रहती है।",
+    "source": "CBLR 2018"
   },
   {
     "id": "cha-core-002",
     "subject": "customs_act",
-    "stem": "Which section of the Customs Act, 1962 defines 'dutable goods'?",
+    "stem": "Which section of the Customs Act, 1962 defines 'dutiable goods'?",
     "stemHinglish": "Customs Act 1962 ka kaun sa section 'dutiable goods' ko define karta hai?",
-    "stemHi": "सीमा शुल्क अधिनियम, 1962 का कौन सा खंड 'शुल्क योग्य वस्तुएं' (dutiable goods) को परिभाषित करता है?",
+    "stemHi": "सीमा शुल्क अधिनियम, 1962 की कौन सी धारा 'शुल्क योग्य वस्तुओं' (dutiable goods) को परिभाषित करती है?",
     "options": [
       "Section 2(14)",
       "Section 2(22)",
@@ -39,9 +40,10 @@
       "धारा 12",
       "धारा 2(2)"
     ],
-    "correctIndex": 2,
-    "explanation": "Section 2(22) defines 'goods', whereas Section 12 is the charging section specifying dutiable goods. Section 2(14) defines 'dutiable goods' as any goods chargeable to duty and includes goods chargeable to duty under any other law.",
-    "explanationHi": "धारा 2(22) 'माल' को परिभाषित करती है, जबकि धारा 12 चार्जिंग अनुभाग है। धारा 2(14) 'शुल्क योग्य वस्तुएं' को किसी भी शुल्क के लिए प्रभार्य माल के रूप में परिभाषित करती है।"
+    "correctIndex": 0,
+    "explanation": "Section 2(14) defines dutiable goods as goods chargeable to duty under the Customs Act or another law. Section 12 is the charging provision; it is not the definition of dutiable goods.",
+    "explanationHi": "धारा 2(14) उन वस्तुओं की परिभाषा देती है जिन पर सीमा शुल्क अधिनियम या किसी अन्य कानून के तहत शुल्क लगाया जा सकता है। धारा 12 शुल्क लगाने वाली मुख्य धारा है, परिभाषा वाली धारा नहीं।",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-core-003",
@@ -63,14 +65,15 @@
     ],
     "correctIndex": 1,
     "explanation": "Regulation 6 of CBLR 2018 prescribes that NACIN conducts the written examination for applicants seeking a Customs Broker license.",
-    "explanationHi": "CBLR 2018 का विनियमन 6 निर्धारित करता है कि NACIN सीमा शुल्क ब्रोकर लाइसेंस चाहने वाले आवेदकों के लिए लिखित परीक्षा आयोजित करता है।"
+    "explanationHi": "CBLR 2018 का विनियमन 6 निर्धारित करता है कि NACIN सीमा शुल्क ब्रोकर लाइसेंस चाहने वाले आवेदकों के लिए लिखित परीक्षा आयोजित करता है।",
+    "source": "CBLR 2018"
   },
   {
     "id": "cha-core-004",
     "subject": "customs_act",
-    "stem": "Under Section 46 of the Customs Act 1962, an importer shall present a bill of entry before the end of the day (including holidays) following the day of arrival of the vessel/aircraft/vehicle, except when extended. What is the nomenclature of this Bill of Entry?",
+    "stem": "When an importer files a Bill of Entry under Section 46 of the Customs Act 1962 seeking clearance of imported goods for home consumption, what is the traditional colour-based nomenclature of the Bill of Entry?",
     "stemHinglish": "Customs Act 1962 ki Section 46 ke tahat Bill of Entry kab file karni hoti hai?",
-    "stemHi": "सीमा शुल्क अधिनियम 1962 की धारा 46 के तहत, एक आयातक को पोत/विमान/वाहन के आगमन के दिन के बाद (छुट्टियों सहित) दिन के अंत से पहले बिल ऑफ एंट्री प्रस्तुत करनी होगी।",
+    "stemHi": "जब आयातक सीमा शुल्क अधिनियम 1962 की धारा 46 के तहत घरेलू उपभोग के लिए आयातित माल की निकासी हेतु बिल ऑफ एंट्री दाखिल करता है, तो पारंपरिक रंग-आधारित नामकरण क्या है?",
     "options": [
       "Home Consumption Bill of Entry (White)",
       "Warehousing Bill of Entry (Yellow)",
@@ -85,7 +88,8 @@
     ],
     "correctIndex": 0,
     "explanation": "Bills of entry are categorized by color: White for home consumption (Section 46), Yellow for warehousing (Section 68), and Green for ex-bond clearance.",
-    "explanationHi": "बिल ऑफ एंट्री को रंग के आधार पर वर्गीकृत किया जाता है: घरेलू उपभोग के लिए सफेद, वेयरहाउसिंग के लिए पीला, और एक्स-बॉन्ड निकासी के लिए हरा।"
+    "explanationHi": "बिल ऑफ एंट्री को रंग के आधार पर वर्गीकृत किया जाता है: घरेलू उपभोग के लिए सफेद, वेयरहाउसिंग के लिए पीला, और एक्स-बॉन्ड निकासी के लिए हरा।",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-core-005",
@@ -107,7 +111,8 @@
     ],
     "correctIndex": 2,
     "explanation": "Section 59 requires the importer to execute a bond for a sum equal to twice the amount of the duty assessed on such goods, binding themselves to observe all provisions.",
-    "explanationHi": "धारा 59 के तहत आयातक को ऐसे माल पर मूल्यांकित शुल्क की राशि के दोगुने के बराबर राशि का बॉन्ड निष्पादित करना आवश्यक है।"
+    "explanationHi": "धारा 59 के तहत आयातक को ऐसे माल पर मूल्यांकित शुल्क की राशि के दोगुने के बराबर राशि का बॉन्ड निष्पादित करना आवश्यक है।",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-extra-351",
@@ -128,7 +133,8 @@
     ],
     "correctIndex": 1,
     "explanation": "NDPS Act violations involving customs import/export attract penal provisions under the NDPS Act and confiscation/penalties under Customs Act 1962.",
-    "explanationHi": "स्पष्टीकरण: NDPS Act violations involving customs import/export attract penal provisions under the NDPS Act and confiscation/penalties under Customs Act 1962."
+    "explanationHi": "स्पष्टीकरण: NDPS Act violations involving customs import/export attract penal provisions under the NDPS Act and confiscation/penalties under Customs Act 1962.",
+    "source": "NDPS Act 1985 / Customs Act 1962"
   },
   {
     "id": "cha-extra-352",
@@ -149,7 +155,8 @@
     ],
     "correctIndex": 1,
     "explanation": "FEMA 1999 regulates foreign exchange transactions and is enforced by RBI and ED.",
-    "explanationHi": "स्पष्टीकरण: FEMA 1999 regulates foreign exchange transactions and is enforced by RBI and ED."
+    "explanationHi": "स्पष्टीकरण: FEMA 1999 regulates foreign exchange transactions and is enforced by RBI and ED.",
+    "source": "FEMA 1999"
   },
   {
     "id": "cha-extra-353",
@@ -170,7 +177,8 @@
     ],
     "correctIndex": 1,
     "explanation": "Section 127C mandates disposal of settlement applications within 9 months from the date of application.",
-    "explanationHi": "स्पष्टीकरण: Section 127C mandates disposal of settlement applications within 9 months from the date of application."
+    "explanationHi": "स्पष्टीकरण: Section 127C mandates disposal of settlement applications within 9 months from the date of application.",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-extra-354",
@@ -191,7 +199,8 @@
     ],
     "correctIndex": 2,
     "explanation": "Chapter V-B (Sections 28E to 28M) governs Advance Rulings under the Customs Act 1962.",
-    "explanationHi": "स्पष्टीकरण: Chapter V-B (Sections 28E to 28M) governs Advance Rulings under the Customs Act 1962."
+    "explanationHi": "स्पष्टीकरण: Chapter V-B (Sections 28E to 28M) governs Advance Rulings under the Customs Act 1962.",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-extra-355",
@@ -212,7 +221,8 @@
     ],
     "correctIndex": 1,
     "explanation": "Section 111 specifies categories of imported goods liable to confiscation, such as prohibited goods, goods imported without bill of entry, etc.",
-    "explanationHi": "स्पष्टीकरण: Section 111 specifies categories of imported goods liable to confiscation, such as prohibited goods, goods imported without bill of entry, etc."
+    "explanationHi": "स्पष्टीकरण: Section 111 specifies categories of imported goods liable to confiscation, such as prohibited goods, goods imported without bill of entry, etc.",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-extra-356",
@@ -233,7 +243,8 @@
     ],
     "correctIndex": 1,
     "explanation": "Section 113 governs confiscation of goods attempted to be exported improperly or in violation of prohibitions.",
-    "explanationHi": "स्पष्टीकरण: Section 113 governs confiscation of goods attempted to be exported improperly or in violation of prohibitions."
+    "explanationHi": "स्पष्टीकरण: Section 113 governs confiscation of goods attempted to be exported improperly or in violation of prohibitions.",
+    "source": "Customs Act 1962"
   },
   {
     "id": "cha-material-814c5e8bc629",

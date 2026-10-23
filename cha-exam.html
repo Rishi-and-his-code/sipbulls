@@ -174,6 +174,15 @@
     let dirtyLeave = false;
     let currentLang = getLanguage();
 
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
     function save() {
       if (!state || state.phase === "intro") return;
       sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -194,7 +203,7 @@
 
     function startNewPaper() {
       const user = getCurrentUser();
-      const paper = selectSmartPaper(bank, user ? user.username : null, 150);
+      const paper = selectSmartPaper(bank, user ? user.username : null, 150, "cha");
       state = {
         phase: "exam",
         ids: paper.map((q) => q.id),
@@ -290,7 +299,7 @@
       document.getElementById("progress-label").textContent =
         `Answered ${answeredCount()} · Marked ${markedCount()} · Unanswered ${state.questions.length - answeredCount()}`;
       const badge = document.getElementById("subject-badge");
-      badge.className = `badge ${q.subject}`;
+      badge.className = `badge ${q.subject.replace(/[^a-z0-9_-]/gi, '')}`;
       badge.textContent = q.subject;
       document.getElementById("mark-state").textContent = state.marked[state.index] ? "Marked for review" : "";
 
@@ -309,7 +318,7 @@
         const selected = chosen !== null && chosen !== undefined && Number(chosen) === i;
         return `<button class="opt-btn${selected ? " selected" : ""}" data-opt="${i}">
           <span class="opt-key">${String.fromCharCode(65 + i)}</span>
-          <span>${opt}</span>
+          <span>${escapeHtml(opt)}</span>
         </button>`;
       }).join("");
 
@@ -383,7 +392,7 @@
           percent,
           passed,
           questionIds: state.questions.map(q => q.id)
-        });
+        }, "cha");
         save();
       }
 
@@ -430,25 +439,28 @@
         }
         if (filter !== "all" && status !== filter) return "";
 
-        const options = q.options.map((opt, oi) => {
+        const reviewOptions = currentLang === 'hi' ? (q.optionsHi || q.options) : q.options;
+        const reviewStem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
+        const reviewExplanation = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
+        const options = reviewOptions.map((opt, oi) => {
           const classes = ["option"];
           if (oi === q.correctIndex) classes.push("correct");
           if (chosen !== null && Number(chosen) === oi && oi !== q.correctIndex) classes.push("wrong");
           if (chosen !== null && Number(chosen) === oi) classes.push("chosen");
-          return `<div class="${classes.join(" ")}"><strong>${String.fromCharCode(65 + oi)}.</strong> ${opt}</div>`;
+          return `<div class="${classes.join(" ")}"><strong>${String.fromCharCode(65 + oi)}.</strong> ${escapeHtml(opt)}</div>`;
         }).join("");
 
-        const chosenLabel = chosen === null || chosen === undefined ? "Not answered" : `${String.fromCharCode(65 + Number(chosen))}. ${q.options[chosen]}`;
+        const chosenLabel = chosen === null || chosen === undefined ? "Not answered" : `${String.fromCharCode(65 + Number(chosen))}. ${escapeHtml(reviewOptions[chosen])}`;
 
         return `<article class="q-card">
           <div class="q-meta">
-            <span class="badge ${q.subject}">${q.subject}</span>
+            <span class="badge ${q.subject.replace(/[^a-z0-9_-]/gi, '')}">${escapeHtml(q.subject.replace('_', ' '))}</span>
             <span class="muted">Q ${i + 1} · ${status === "correct" ? "Correct (+3)" : status === "wrong" ? "Incorrect (-1)" : "Unanswered"}</span>
           </div>
-          <p class="q-stem">${q.stem}</p>
+          <p class="q-stem">${escapeHtml(reviewStem)}</p>
           <div class="options">${options}</div>
-          <div class="answer-box">Your answer: ${chosenLabel}<br>Correct answer: ${String.fromCharCode(65 + q.correctIndex)}. ${q.options[q.correctIndex]}</div>
-          <div class="explain-box"><strong>Explanation</strong><div>${q.explanation}</div></div>
+          <div class="answer-box">Your answer: ${chosenLabel}<br>Correct answer: ${String.fromCharCode(65 + q.correctIndex)}. ${escapeHtml(reviewOptions[q.correctIndex])}</div>
+          <div class="explain-box"><strong>${currentLang === 'hi' ? 'व्याख्या' : 'Explanation'}</strong><div>${escapeHtml(reviewExplanation)}</div></div>
         </article>`;
       }).join("");
 

@@ -4,6 +4,7 @@ import {
   optionLetter,
   subjectLabel,
 } from "./common.js";
+import { initAuthUI } from "./auth-ui.js";
 
 const PAGE_SIZE = 20;
 const state = {
@@ -97,6 +98,8 @@ searchEl.addEventListener("input", () => {
   state.page = 1;
   applyFilter();
 });
+
+initAuthUI();
 
 try {
   state.all = await loadQuestions();

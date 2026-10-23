@@ -135,7 +135,7 @@ export function scoreExam(questions, answers) {
   };
 }
 
-export function buildPaper(bank) {
+export function buildPaper(bank, asked = new Set()) {
   const used = new Set();
   const paper = [];
   const bySubject = { mutual_funds: [], equity_derivatives: [], interest_rate_derivatives: [] };
@@ -145,7 +145,9 @@ export function buildPaper(bank) {
 
   Object.values(SUBJECTS).forEach((sub) => {
     const pool = shuffle(bySubject[sub.id] || []);
-    const picked = pool.slice(0, sub.count);
+    const unseen = pool.filter((q) => !asked.has(q.id));
+    const seen = pool.filter((q) => asked.has(q.id));
+    const picked = [...unseen, ...seen].slice(0, sub.count);
     picked.forEach((q) => used.add(q.id));
     paper.push(...picked);
   });

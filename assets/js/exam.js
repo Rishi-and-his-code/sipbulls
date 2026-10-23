@@ -10,6 +10,8 @@ import {
   scoreExam,
   subjectLabel,
 } from "./common.js";
+import { getCurrentUser, getAskedQuestions, saveUserTestResult } from "./user.js";
+import { initAuthUI } from "./auth-ui.js";
 
 const STORAGE_KEY = "nism-vd-exam-state";
 const params = new URLSearchParams(location.search);
@@ -43,7 +45,8 @@ function clearSaved() {
 }
 
 function startNewPaper() {
-  const paper = buildPaper(bank);
+  const user = getCurrentUser();
+  const paper = buildPaper(bank, getAskedQuestions(user?.username, "nism-vd"));
   state = {
     phase: "exam",
     ids: paper.map((q) => q.id),
@@ -213,6 +216,22 @@ function showResults() {
     </div>`;
   }).join("");
 
+  const user = getCurrentUser();
+  if (user && !state.savedToHistory) {
+    saveUserTestResult(user.username, {
+      score: result.marks,
+      maxMarks: EXAM.total,
+      correct: result.correct,
+      wrong: result.wrong,
+      skipped: result.skipped,
+      percent: result.percent,
+      passed: result.passed,
+      questionIds: state.questions.map((q) => q.id),
+    }, "nism-vd");
+    state.savedToHistory = true;
+    save();
+  }
+
   window.__review = { result, filter: "all" };
   renderReview("all");
 }
@@ -286,6 +305,8 @@ document.getElementById("q-options").addEventListener("click", (e) => {
   if (!btn) return;
   selectOption(Number(btn.dataset.opt));
 });
+initAuthUI();
+
 document.querySelector(".review-nav").addEventListener("click", (e) => {
   const btn = e.target.closest("[data-review]");
   if (!btn) return;

@@ -102,6 +102,15 @@
     let currentLang = getLanguage();
     const pageSize = 20;
 
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
     async function init() {
       initAuthUI();
       try {
@@ -121,9 +130,10 @@
 
       document.querySelectorAll('#filters .chip').forEach(btn => {
         btn.addEventListener('click', (e) => {
+          const selected = e.currentTarget;
           document.querySelectorAll('#filters .chip').forEach(b => b.classList.remove('active'));
-          e.target.classList.add('active');
-          currentSubject = e.target.getAttribute('data-subject');
+          selected.classList.add('active');
+          currentSubject = selected.getAttribute('data-subject');
           currentPage = 1;
           render();
         });
@@ -140,7 +150,8 @@
         const matchSub = currentSubject === 'all' || q.subject === currentSubject;
         const stem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
         const exp = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
-        const matchSearch = !currentSearch || stem.toLowerCase().includes(currentSearch) || exp.toLowerCase().includes(currentSearch);
+        const optionText = (currentLang === 'hi' ? (q.optionsHi || q.options) : q.options).join(' ');
+        const matchSearch = !currentSearch || [stem, exp, optionText].join(' ').toLowerCase().includes(currentSearch);
         return matchSub && matchSearch;
       });
 
@@ -160,19 +171,19 @@
         return `
           <div class="q-card">
             <div class="q-meta">
-              <span class="badge ${q.subject}">${q.subject.replace('_', ' ')}</span>
+              <span class="badge ${q.subject.replace(/[^a-z0-9_-]/gi, '')}">${escapeHtml(q.subject.replace('_', ' '))}</span>
               <span class="muted">Q #${globalIdx}</span>
             </div>
-            <p class="q-stem">${stem}</p>
+            <p class="q-stem">${escapeHtml(stem)}</p>
             <div class="options">
               ${options.map((opt, oIdx) => `
                 <div class="option ${oIdx === q.correctIndex ? 'correct' : ''}">
-                  <strong>${String.fromCharCode(65 + oIdx)}.</strong> ${opt}
+                  <strong>${String.fromCharCode(65 + oIdx)}.</strong> ${escapeHtml(opt)}
                 </div>
               `).join('')}
             </div>
             <div class="answer-box">Correct Answer: ${String.fromCharCode(65 + q.correctIndex)}</div>
-            <div class="explain-box"><strong>Explanation:</strong> ${explanation}</div>
+            <div class="explain-box"><strong>Explanation:</strong> ${escapeHtml(explanation)}</div>
           </div>
         `;
       }).join('');

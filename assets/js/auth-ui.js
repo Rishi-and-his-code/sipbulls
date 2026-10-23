@@ -1,5 +1,29 @@
 import { getCurrentUser, setCurrentUser, getUserHistory, getAskedQuestions } from './user.js';
 
+const EXAMS = {
+  cha: { label: 'CHA / CBLR', maxMarks: 450, passMarks: 270 },
+  'nism-vd': { label: 'NISM Series V-D', maxMarks: 150, passMarks: 90 },
+};
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function getAllHistory(username) {
+  return Object.entries(EXAMS).flatMap(([examType, details]) =>
+    getUserHistory(username, examType).map((entry) => ({ ...entry, examType, details }))
+  ).sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+function getAskedCount(username) {
+  return Object.keys(EXAMS).reduce((total, examType) => total + getAskedQuestions(username, examType).size, 0);
+}
+
 export function initAuthUI() {
   const nav = document.querySelector('.site-header .nav');
   if (!nav) return;
@@ -42,7 +66,7 @@ export function initAuthUI() {
 function updateUserBtnLabel(btn) {
   const user = getCurrentUser();
   if (user) {
-    btn.innerHTML = `👤 ${user.name} <small style="opacity:0.85;font-size:11px;font-weight:700">(${getUserHistory(user.username).length} tests)</small>`;
+    btn.innerHTML = `👤 ${escapeHtml(user.name)} <small style="opacity:0.85;font-size:11px;font-weight:700">(${getAllHistory(user.username).length} tests)</small>`;
   } else {
     btn.innerHTML = `👤 Sign In / Track`;
   }
@@ -75,22 +99,22 @@ export function openUserModal() {
       openUserModal(); // Refresh modal view
     });
   } else {
-    const history = getUserHistory(user.username);
-    const askedCount = getAskedQuestions(user.username).size;
-    const bestScore = history.length ? Math.max(...history.map(h => h.score)) : 0;
+    const history = getAllHistory(user.username);
+    const askedCount = getAskedCount(user.username);
+    const bestScore = history.length ? Math.max(...history.map(h => Number(h.score) || 0)) : 0;
 
     content.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;background:var(--cream);padding:18px 22px;border-radius:14px;margin-bottom:24px;border:1px solid var(--line)">
         <div>
-          <h3 style="margin:0 0 4px;font-family:Fraunces,Georgia,serif;color:var(--navy);font-size:1.3rem">${user.name}</h3>
-          <p class="muted" style="margin:0;font-size:13px">Username ID: <code>${user.username}</code></p>
+          <h3 style="margin:0 0 4px;font-family:Fraunces,Georgia,serif;color:var(--navy);font-size:1.3rem">${escapeHtml(user.name)}</h3>
+          <p class="muted" style="margin:0;font-size:13px">Username ID: <code>${escapeHtml(user.username)}</code></p>
         </div>
         <button class="btn btn-ghost" id="signout-btn" style="color:var(--danger);border-color:rgba(217,75,75,0.3);background:white">Sign Out</button>
       </div>
 
       <div style="display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:14px;margin-bottom:28px">
         <div class="stat"><b>${history.length}</b><span>Tests Taken</span></div>
-        <div class="stat"><b>${bestScore} / 450</b><span>Best Score</span></div>
+        <div class="stat"><b>${bestScore}</b><span>Best raw score</span></div>
         <div class="stat"><b>${askedCount}</b><span>Unique Qs Practiced</span></div>
       </div>
 
@@ -100,12 +124,13 @@ export function openUserModal() {
           ${history.map(h => `
             <div class="history-item">
               <div>
-                <strong style="color:var(--navy)">${new Date(h.date).toLocaleDateString()} ${new Date(h.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</strong>
-                <div class="muted" style="font-size:12px;margin-top:2px">${h.correct} Correct, ${h.wrong} Incorrect, ${h.skipped} Unanswered</div>
+                <strong style="color:var(--navy)">${escapeHtml(h.details.label)}</strong>
+                <div style="font-size:12px;margin-top:2px;color:var(--muted)">${new Date(h.date).toLocaleDateString()} ${new Date(h.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</div>
+                <div class="muted" style="font-size:12px;margin-top:2px">${Number(h.correct) || 0} Correct, ${Number(h.wrong) || 0} Incorrect, ${Number(h.skipped) || 0} Unanswered</div>
               </div>
               <div style="text-align:right">
-                <div style="font-weight:700;font-size:15px;color:var(--navy)">${h.score} / 450</div>
-                <span class="score-badge ${h.passed ? 'pass' : 'fail'}">${h.passed ? 'Passed (≥270)' : 'Not Passed'}</span>
+                <div style="font-weight:700;font-size:15px;color:var(--navy)">${Number(h.score) || 0} / ${Number(h.maxMarks) || h.details.maxMarks}</div>
+                <span class="score-badge ${h.passed === true ? 'pass' : 'fail'}">${h.passed === true ? `Passed (≥${h.details.passMarks})` : 'Not Passed'}</span>
               </div>
             </div>
           `).join('')}
