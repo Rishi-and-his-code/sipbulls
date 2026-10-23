@@ -130,7 +130,8 @@
 
   <script type="module">
     import { initAuthUI } from './assets/js/auth-ui.js';
-    let currentLang = 'hi';
+    import { getLanguage, setupLanguageToggle } from './assets/js/language.js';
+    let currentLang = getLanguage();
     let modulesData = [];
 
     async function init() {
@@ -143,9 +144,8 @@
         console.error(e);
       }
 
-      document.getElementById('lang-toggle').addEventListener('click', () => {
-        currentLang = currentLang === 'en' ? 'hi' : 'en';
-        document.getElementById('lang-toggle').textContent = currentLang === 'en' ? 'हिंदी' : 'English';
+      setupLanguageToggle(document.getElementById('lang-toggle'), (language) => {
+        currentLang = language;
         renderConcepts();
       });
 

@@ -43,9 +43,10 @@
 
   <script type="module">
     import { initAuthUI } from './assets/js/auth-ui.js';
+    import { getLanguage, setupLanguageToggle } from './assets/js/language.js';
     initAuthUI();
     const moduleId = new URLSearchParams(location.search).get('id');
-    let lang = localStorage.getItem('cha-language') || 'hi';
+    let lang = getLanguage();
     let modules = [];
     const content = document.getElementById('notes-content');
     const langButton = document.getElementById('lang-toggle');
@@ -69,7 +70,7 @@
       `;
     }
 
-    langButton.addEventListener('click', () => { lang = lang === 'en' ? 'hi' : 'en'; localStorage.setItem('cha-language', lang); render(); });
+    setupLanguageToggle(langButton, (language) => { lang = language; render(); });
     document.getElementById('print-btn').addEventListener('click', () => window.print());
     fetch('data/cha_concepts.json').then(response => response.json()).then(data => { modules = data; render(); }).catch(() => { content.innerHTML = '<p class="empty">Unable to load the study guide. Please refresh the page.</p>'; });
   </script>

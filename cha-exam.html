@@ -156,8 +156,9 @@
   </footer>
 
   <script type="module">
-    import { getCurrentUser, selectSmartPaper, saveUserTestResult } from './user.js';
-    import { initAuthUI } from './auth-ui.js';
+    import { getCurrentUser, selectSmartPaper, saveUserTestResult } from './assets/js/user.js';
+    import { initAuthUI } from './assets/js/auth-ui.js';
+    import { getLanguage, setupLanguageToggle } from './assets/js/language.js';
 
     const STORAGE_KEY = "cha-exam-state";
     const params = new URLSearchParams(location.search);
@@ -171,7 +172,7 @@
     let state = null;
     let tick = null;
     let dirtyLeave = false;
-    let currentLang = 'hi';
+    let currentLang = getLanguage();
 
     function save() {
       if (!state || state.phase === "intro") return;
@@ -488,14 +489,15 @@
       c.addEventListener("click", (e) => renderReview(e.target.dataset.review));
     });
 
-    document.getElementById("lang-toggle").addEventListener("click", () => {
-      currentLang = currentLang === 'en' ? 'hi' : 'en';
-      document.getElementById("lang-toggle").textContent = currentLang === 'en' ? 'हिंदी' : 'English';
-      if (state && state.phase === 'exam') renderQuestion();
-    });
-
     async function init() {
       initAuthUI();
+      setupLanguageToggle(document.getElementById('lang-toggle'), (language) => {
+        currentLang = language;
+        if (state) {
+          if (state.phase === 'exam') renderQuestion();
+          if (state.phase === 'results') renderReview('all');
+        }
+      });
       try {
         const res = await fetch('data/cha_questions.json');
         bank = await res.json();

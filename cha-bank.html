@@ -91,11 +91,12 @@
 
   <script type="module">
     import { initAuthUI } from './assets/js/auth-ui.js';
+    import { getLanguage, setupLanguageToggle } from './assets/js/language.js';
     let questions = [];
     let currentSubject = 'all';
     let currentSearch = '';
     let currentPage = 1;
-    let currentLang = 'hi';
+    let currentLang = getLanguage();
     const pageSize = 20;
 
     async function init() {
@@ -125,9 +126,8 @@
         });
       });
 
-      document.getElementById('lang-toggle').addEventListener('click', () => {
-        currentLang = currentLang === 'en' ? 'hi' : 'en';
-        document.getElementById('lang-toggle').textContent = currentLang === 'en' ? 'हिंदी' : 'English';
+      setupLanguageToggle(document.getElementById('lang-toggle'), (language) => {
+        currentLang = language;
         render();
       });
     }
