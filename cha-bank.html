@@ -148,9 +148,9 @@
     function render() {
       const filtered = questions.filter(q => {
         const matchSub = currentSubject === 'all' || q.subject === currentSubject;
-        const stem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
-        const exp = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
-        const optionText = (currentLang === 'hi' ? (q.optionsHi || q.options) : q.options).join(' ');
+        const stem = currentLang === 'hi' && q.stemHi && q.stemHi !== q.stem ? q.stemHi : q.stem;
+        const exp = currentLang === 'hi' && q.explanationHi && q.explanationHi !== q.explanation ? q.explanationHi : q.explanation;
+        const optionText = (currentLang === 'hi' && q.optionsHi && q.optionsHi !== q.options ? q.optionsHi : q.options).join(' ');
         const matchSearch = !currentSearch || [stem, exp, optionText].join(' ').toLowerCase().includes(currentSearch);
         return matchSub && matchSearch;
       });
@@ -163,9 +163,9 @@
 
       const listEl = document.getElementById('list');
       listEl.innerHTML = slice.map((q, idx) => {
-        const stem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
-        const options = currentLang === 'hi' ? (q.optionsHi || q.options) : q.options;
-        const explanation = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
+        const stem = currentLang === 'hi' && q.stemHi && q.stemHi !== q.stem ? q.stemHi : q.stem;
+        const options = currentLang === 'hi' && q.optionsHi && q.optionsHi !== q.options ? q.optionsHi : q.options;
+        const explanation = currentLang === 'hi' && q.explanationHi && q.explanationHi !== q.explanation ? q.explanationHi : q.explanation;
         const globalIdx = (currentPage - 1) * pageSize + idx + 1;
 
         return `

@@ -203,7 +203,13 @@
 
     function startNewPaper() {
       const user = getCurrentUser();
-      const paper = selectSmartPaper(bank, user ? user.username : null, 150, "cha");
+      let paper;
+      try {
+        paper = selectSmartPaper(bank, user ? user.username : null, 150, "cha");
+      } catch (error) {
+        alert(error.message);
+        return;
+      }
       state = {
         phase: "exam",
         ids: paper.map((q) => q.id),
@@ -303,9 +309,9 @@
       badge.textContent = q.subject;
       document.getElementById("mark-state").textContent = state.marked[state.index] ? "Marked for review" : "";
 
-      document.getElementById("q-stem").textContent = q.stem;
+      document.getElementById("q-stem").textContent = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
       const hiStem = document.getElementById("q-stem-hi");
-      if (currentLang === 'hi' && q.stemHi) {
+      if (currentLang === 'hi' && q.stemHi && q.stemHi !== q.stem) {
         hiStem.textContent = q.stemHi;
         hiStem.classList.remove("hidden");
       } else {
@@ -439,9 +445,9 @@
         }
         if (filter !== "all" && status !== filter) return "";
 
-        const reviewOptions = currentLang === 'hi' ? (q.optionsHi || q.options) : q.options;
-        const reviewStem = currentLang === 'hi' ? (q.stemHi || q.stem) : q.stem;
-        const reviewExplanation = currentLang === 'hi' ? (q.explanationHi || q.explanation) : q.explanation;
+        const reviewOptions = currentLang === 'hi' && q.optionsHi && q.optionsHi !== q.options ? q.optionsHi : q.options;
+        const reviewStem = currentLang === 'hi' && q.stemHi && q.stemHi !== q.stem ? q.stemHi : q.stem;
+        const reviewExplanation = currentLang === 'hi' && q.explanationHi && q.explanationHi !== q.explanation ? q.explanationHi : q.explanation;
         const options = reviewOptions.map((opt, oi) => {
           const classes = ["option"];
           if (oi === q.correctIndex) classes.push("correct");

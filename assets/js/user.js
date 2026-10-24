@@ -89,19 +89,40 @@ export function getAskedQuestions(username, examType) {
 
 export function selectSmartPaper(bank, username, count = 150, examType) {
   const asked = getAskedQuestions(username, examType);
-  // Filter questions not yet asked to this user.
-  const unasked = bank.filter(q => !asked.has(q.id));
+  const uniqueBank = dedupeQuestions(bank);
+  if (uniqueBank.length < count) {
+    throw new Error(`Question bank has ${uniqueBank.length} unique questions; ${count} are required.`);
+  }
+
+  const unasked = uniqueBank.filter((q) => !asked.has(q.id));
 
   // Prefer unseen questions. When fewer than `count` remain, use the remaining
-  // unseen questions first and only then fill the paper from the least-recently
-  // seen questions. This avoids repeats until the bank is exhausted and avoids
-  // the old behaviour of immediately resetting to the entire bank.
+  // unseen questions first and only then fill the paper from previously seen
+  // questions. The dedupe pass protects tests even if bad source data returns.
   const unaskedPaper = shuffle(unasked).slice(0, count);
   if (unaskedPaper.length >= count) return unaskedPaper;
 
-  const selectedIds = new Set(unaskedPaper.map(q => q.id));
-  const repeatPool = shuffle(bank.filter(q => !selectedIds.has(q.id) && asked.has(q.id)));
+  const selectedIds = new Set(unaskedPaper.map((q) => q.id));
+  const repeatPool = shuffle(uniqueBank.filter((q) => !selectedIds.has(q.id) && asked.has(q.id)));
   return [...unaskedPaper, ...repeatPool].slice(0, count);
+}
+
+function normalizeQuestionValue(value) {
+  return String(value ?? '').trim().toLowerCase().replace(/\\s+/g, ' ');
+}
+
+function dedupeQuestions(bank) {
+  const seen = new Set();
+  return bank.filter((question) => {
+    const signature = [
+      question.stem,
+      ...(question.options || []),
+      question.correctIndex,
+    ].map(normalizeQuestionValue).join('|');
+    if (seen.has(signature)) return false;
+    seen.add(signature);
+    return true;
+  });
 }
 
 function shuffle(items) {
