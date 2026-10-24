@@ -72,7 +72,12 @@ english_fallback = []
 for question in bank:
     if question.get("stemHi") == question.get("stem") or question.get("explanationHi") == question.get("explanation"):
         english_fallback.append(question.get("id"))
-    if question.get("optionsHi") == question.get("options"):
+    english_options = question.get("options") or []
+    hindi_options = question.get("optionsHi") or []
+    # Numeric/legal section choices are intentionally language-neutral. Flag
+    # only an unchanged option list containing translatable English text.
+    has_translatable_text = any(re.search(r"[A-Za-z]{3,}", str(option)) for option in english_options)
+    if has_translatable_text and hindi_options == english_options:
         english_fallback.append(question.get("id"))
 if english_fallback:
     errors.append(f"Hindi fields are English fallbacks for: {english_fallback}")

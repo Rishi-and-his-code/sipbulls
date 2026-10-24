@@ -3562,5 +3562,225 @@
     "correctIndex": 0,
     "explanation": "A complete packing list helps Customs and the broker reconcile packages, marks, quantities and the goods described in the declaration.",
     "explanationHi": "पूरी पैकिंग सूची सीमा शुल्क और ब्रोकर को पैकेज, चिह्न, मात्रा तथा घोषणा में वर्णित माल का मिलान करने में सहायता करती है।"
+  },
+  {
+    "id": "cha-aeo-176",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "In which year was the WCO SAFE Framework of Standards adopted?",
+    "stemHi": "WCO SAFE फ्रेमवर्क ऑफ स्टैंडर्ड्स को किस वर्ष अपनाया गया था?",
+    "options": [
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "optionsHi": [
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "correctIndex": 2,
+    "explanation": "The World Customs Organization adopted the SAFE Framework of Standards in 2005.",
+    "explanationHi": "विश्व सीमा शुल्क संगठन ने SAFE फ्रेमवर्क ऑफ स्टैंडर्ड्स को 2005 में अपनाया था।"
+  },
+  {
+    "id": "cha-aeo-177",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "The WCO SAFE Framework of Standards deals with supply-chain management through which transport modes?",
+    "stemHi": "WCO SAFE फ्रेमवर्क ऑफ स्टैंडर्ड्स किन परिवहन माध्यमों के जरिए सप्लाई-चेन प्रबंधन से संबंधित है?",
+    "options": [
+      "Air only",
+      "Road only",
+      "Sea only",
+      "All modes of transport"
+    ],
+    "optionsHi": [
+      "केवल हवाई परिवहन",
+      "केवल सड़क परिवहन",
+      "केवल समुद्री परिवहन",
+      "सभी परिवहन माध्यम"
+    ],
+    "correctIndex": 3,
+    "explanation": "The SAFE Framework is designed for international supply chains across all modes of transport, not only one mode.",
+    "explanationHi": "SAFE फ्रेमवर्क केवल एक माध्यम तक सीमित नहीं है; यह सभी परिवहन माध्यमों वाली अंतरराष्ट्रीय सप्लाई चेन के लिए बनाया गया है।"
+  },
+  {
+    "id": "cha-aeo-178",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "Which is a core element of the WCO SAFE Framework of Standards?",
+    "stemHi": "WCO SAFE फ्रेमवर्क ऑफ स्टैंडर्ड्स का मुख्य तत्व कौन सा है?",
+    "options": [
+      "Advance electronic information about inbound, outbound and transit shipments",
+      "Removal of risk management",
+      "A ban on electronic filing",
+      "Elimination of Customs-to-Business cooperation"
+    ],
+    "optionsHi": [
+      "आने वाली, बाहर जाने वाली और ट्रांजिट खेपों की अग्रिम इलेक्ट्रॉनिक जानकारी",
+      "जोखिम प्रबंधन को हटाना",
+      "इलेक्ट्रॉनिक फाइलिंग पर प्रतिबंध",
+      "सीमा शुल्क और व्यवसाय के बीच सहयोग समाप्त करना"
+    ],
+    "correctIndex": 0,
+    "explanation": "Advance electronic information about inbound, outbound and transit shipments is a core SAFE Framework element supporting risk assessment and supply-chain security.",
+    "explanationHi": "आने वाली, बाहर जाने वाली और ट्रांजिट खेपों की अग्रिम इलेक्ट्रॉनिक जानकारी SAFE फ्रेमवर्क का मुख्य तत्व है, जो जोखिम आकलन और सप्लाई-चेन सुरक्षा में सहायता करती है।"
+  },
+  {
+    "id": "cha-aeo-179",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "Who grants Authorized Economic Operator status in a country?",
+    "stemHi": "किसी देश में अधिकृत आर्थिक ऑपरेटर (AEO) का दर्जा कौन प्रदान करता है?",
+    "options": [
+      "World Customs Organization",
+      "The national Customs administration",
+      "A trade chamber alone",
+      "The carrier"
+    ],
+    "optionsHi": [
+      "विश्व सीमा शुल्क संगठन",
+      "राष्ट्रीय सीमा शुल्क प्रशासन",
+      "केवल व्यापार मंडल",
+      "परिवहनकर्ता"
+    ],
+    "correctIndex": 1,
+    "explanation": "AEO status is granted by the national Customs administration under that country's applicable programme and criteria.",
+    "explanationHi": "AEO का दर्जा उस देश के लागू कार्यक्रम और मानदंडों के अनुसार राष्ट्रीय सीमा शुल्क प्रशासन प्रदान करता है।"
+  },
+  {
+    "id": "cha-aeo-180",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "In the AEO study material, what does ISCM stand for?",
+    "stemHi": "AEO अध्ययन सामग्री में ISCM का पूरा नाम क्या है?",
+    "options": [
+      "Integrated Supply Chain Management",
+      "International Customs Security Method",
+      "Internal Statutory Compliance Manual",
+      "Import Supply Clearance Mechanism"
+    ],
+    "optionsHi": [
+      "इंटीग्रेटेड सप्लाई चेन मैनेजमेंट",
+      "इंटरनेशनल कस्टम्स सिक्योरिटी मेथड",
+      "इंटरनल स्टैच्यूटरी कंप्लायंस मैनुअल",
+      "इंपोर्ट सप्लाई क्लीयरेंस मैकेनिज्म"
+    ],
+    "correctIndex": 0,
+    "explanation": "ISCM stands for Integrated Supply Chain Management in the referenced AEO study material.",
+    "explanationHi": "संदर्भित AEO अध्ययन सामग्री में ISCM का अर्थ Integrated Supply Chain Management यानी इंटीग्रेटेड सप्लाई चेन मैनेजमेंट है।"
+  },
+  {
+    "id": "cha-aeo-181",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "The AEO programme is intended to improve Customs capability to do what?",
+    "stemHi": "AEO कार्यक्रम का उद्देश्य सीमा शुल्क की किस क्षमता में सुधार करना है?",
+    "options": [
+      "Detect high-risk consignments",
+      "Eliminate every risk from international trade",
+      "Stop all imports",
+      "Replace all Customs officers"
+    ],
+    "optionsHi": [
+      "उच्च जोखिम वाली खेपों का पता लगाना",
+      "अंतरराष्ट्रीय व्यापार के हर जोखिम को समाप्त करना",
+      "सभी आयात रोकना",
+      "सभी सीमा शुल्क अधिकारियों का स्थान लेना"
+    ],
+    "correctIndex": 0,
+    "explanation": "The AEO and SAFE approach helps Customs focus resources and improve the detection of high-risk consignments while facilitating legitimate trade.",
+    "explanationHi": "AEO और SAFE दृष्टिकोण वैध व्यापार को सुविधा देते हुए संसाधनों को केंद्रित करने तथा उच्च जोखिम वाली खेपों का पता लगाने में सीमा शुल्क की क्षमता बढ़ाते हैं।"
+  },
+  {
+    "id": "cha-aeo-182",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "The SAFE Framework is primarily concerned with security and facilitation of which supply chain?",
+    "stemHi": "SAFE फ्रेमवर्क मुख्य रूप से किस सप्लाई चेन की सुरक्षा और सुविधा से संबंधित है?",
+    "options": [
+      "The international supply chain",
+      "Only the domestic retail chain",
+      "Only passenger baggage",
+      "Only the stock-market settlement chain"
+    ],
+    "optionsHi": [
+      "अंतरराष्ट्रीय सप्लाई चेन",
+      "केवल घरेलू खुदरा सप्लाई चेन",
+      "केवल यात्री सामान",
+      "केवल शेयर बाजार की निपटान चेन"
+    ],
+    "correctIndex": 0,
+    "explanation": "The SAFE Framework addresses security and facilitation of the international supply chain.",
+    "explanationHi": "SAFE फ्रेमवर्क अंतरराष्ट्रीय सप्लाई चेन की सुरक्षा और सुविधा से संबंधित है।"
+  },
+  {
+    "id": "cha-aeo-183",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "Which document is not normally identified as an AEO applicant security or process document in the referenced material?",
+    "stemHi": "संदर्भित सामग्री में AEO आवेदक के सुरक्षा या प्रक्रिया संबंधी दस्तावेज के रूप में किस दस्तावेज की सामान्यतः पहचान नहीं की जाती?",
+    "options": [
+      "Security plan",
+      "Site plan",
+      "Process map",
+      "Business plan"
+    ],
+    "optionsHi": [
+      "सुरक्षा योजना",
+      "साइट योजना",
+      "प्रक्रिया मानचित्र",
+      "व्यवसाय योजना"
+    ],
+    "correctIndex": 3,
+    "explanation": "The referenced AEO material identifies security and process documents such as a security plan, site plan, process map and self-assessment material; a business plan is not the listed security/process document in that context.",
+    "explanationHi": "संदर्भित AEO सामग्री में सुरक्षा योजना, साइट योजना, प्रक्रिया मानचित्र और स्व-मूल्यांकन सामग्री जैसे दस्तावेज बताए गए हैं; उस संदर्भ में व्यवसाय योजना सूचीबद्ध सुरक्षा या प्रक्रिया दस्तावेज नहीं है।"
+  },
+  {
+    "id": "cha-aeo-184",
+    "subject": "allied_acts",
+    "source": "AEO - December 2019",
+    "stem": "Which of the following best describes an AEO benefit where the applicable programme provides it?",
+    "stemHi": "जहाँ लागू कार्यक्रम में प्रावधान हो, निम्नलिखित में से कौन सा AEO लाभ का सबसे अच्छा वर्णन है?",
+    "options": [
+      "Reduced bank guarantee or equivalent financial-security requirement",
+      "Automatic exemption from every Customs law",
+      "Permission to stop maintaining records",
+      "Permission to conceal shipment information"
+    ],
+    "optionsHi": [
+      "बैंक गारंटी या समान वित्तीय सुरक्षा की आवश्यकता में कमी",
+      "हर सीमा शुल्क कानून से स्वतः छूट",
+      "रिकॉर्ड रखना बंद करने की अनुमति",
+      "खेप की जानकारी छिपाने की अनुमति"
+    ],
+    "correctIndex": 0,
+    "explanation": "AEO programmes may provide reduced bank-guarantee or equivalent financial-security requirements, but only subject to the applicable programme conditions; AEO status does not exempt a business from Customs law or records duties.",
+    "explanationHi": "AEO कार्यक्रम में लागू शर्तों के अधीन बैंक गारंटी या समान वित्तीय सुरक्षा की आवश्यकता में कमी का लाभ मिल सकता है; AEO दर्जा सीमा शुल्क कानून या रिकॉर्ड रखने के दायित्व से छूट नहीं देता।"
+  },
+  {
+    "id": "cha-act-185",
+    "subject": "customs_act",
+    "source": "Customs Act 1962",
+    "stem": "Which chapter of the Customs Act, 1962 contains the provisions on advance rulings?",
+    "stemHi": "सीमा शुल्क अधिनियम, 1962 के किस अध्याय में अग्रिम निर्णय से संबंधित प्रावधान हैं?",
+    "options": [
+      "Chapter IV",
+      "Chapter V-A",
+      "Chapter V-B",
+      "Chapter VI"
+    ],
+    "optionsHi": [
+      "अध्याय IV",
+      "अध्याय V-A",
+      "अध्याय V-B",
+      "अध्याय VI"
+    ],
+    "correctIndex": 2,
+    "explanation": "The advance-ruling provisions are contained in Chapter V-B of the Customs Act, 1962, including Sections 28E to 28M as applicable to the statutory framework.",
+    "explanationHi": "सीमा शुल्क अधिनियम, 1962 में अग्रिम निर्णय से संबंधित प्रावधान अध्याय V-B में हैं, जिसमें लागू वैधानिक ढांचे के अनुसार धारा 28E से 28M शामिल हैं।"
   }
 ]
